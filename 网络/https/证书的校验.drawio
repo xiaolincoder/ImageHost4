@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T16:35:07.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="awacs2AnYX4mn1irlFSi" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T16:35:18.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="DC9DMSj6-aQeY4HMDBrF" version="13.9.9" type="github">
   <diagram id="gcg6w3xiNMAC09HztKAG" name="第 1 页">
     <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,8 +43,8 @@
         <mxCell id="hyPgy05SgEA319AVart2-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=1;sketch=0;strokeColor=#000000;fillColor=#dae8fc;fontFamily=Courier New;fontSize=16;align=center;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="950" y="340" width="30" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="hyPgy05SgEA319AVart2-15" value="H1 和 H2 比较，&lt;br&gt;如果相同，则是可信赖的证书&lt;br&gt;如果不相同，则认为证书不可信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
-          <mxGeometry x="980" y="410" width="240" height="60" as="geometry" />
+        <mxCell id="hyPgy05SgEA319AVart2-15" value="H1 和 H2 比较，&lt;br&gt;如果相同，则是可信赖的证书&lt;br&gt;如果不相同，则认为证书不可信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Courier New;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="990" y="400" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

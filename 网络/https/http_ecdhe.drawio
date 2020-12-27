@@ -1,1 +1,307 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T16:43:05.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.1.2" etag="0-Zo4EyReos7GipJIOoj" type="github"><diagram id="ETCgd9DjTEJAdxNfnKiP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-27T16:58:38.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="1F4LgB7AGpv6PuBVwBNz" version="14.1.2" type="github">
+  <diagram id="ETCgd9DjTEJAdxNfnKiP" name="第 1 页">
+    <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="485.03" y="430" width="406" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="485.03" y="1710" width="414.97" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="479" y="580" width="420" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-4" value="客户端" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Farmer_Woman_128x128.png;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="436.4" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-5" value="服务器" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_Rack_128x128.png;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="850" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-6" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479" y="430" as="sourcePoint" />
+            <mxPoint x="480" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-7" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="894" y="430" as="sourcePoint" />
+            <mxPoint x="902" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-8" value="" style="endArrow=classic;html=1;fontColor=#0000FF;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#0000FF;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="590" as="sourcePoint" />
+            <mxPoint x="890" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-9" value="Client Hello" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000FF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="649" y="600" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-10" value="" style="endArrow=classic;html=1;dashed=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="680" as="sourcePoint" />
+            <mxPoint x="490" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-11" value="ACK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=16;" vertex="1" connectable="0" parent="SMTfnlldAPq2TJX3tMAA-10">
+          <mxGeometry x="-0.2636" relative="1" as="geometry">
+            <mxPoint x="-53.91" y="2.67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-12" value="" style="endArrow=classic;html=1;fontColor=#00CC66;strokeColor=#00CC66;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="750" as="sourcePoint" />
+            <mxPoint x="492.5" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-13" value="Server Hello" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;fontColor=#00CC66;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="649" y="770" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-14" value="随机数 C、客户端 TLS 版本号、密码套件列表" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=10;fontColor=#0000FF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="531.03" y="630" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-15" value="" style="endArrow=classic;html=1;dashed=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="488.75" y="1086.5" as="sourcePoint" />
+            <mxPoint x="886" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-16" value="ACK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=16;" vertex="1" connectable="0" parent="SMTfnlldAPq2TJX3tMAA-15">
+          <mxGeometry x="0.0957" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-17" value="" style="endArrow=classic;html=1;strokeColor=#0000FF;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="481.75" y="1270" as="sourcePoint" />
+            <mxPoint x="888" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-18" value="Client Key Exchange" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000FF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="611.03" y="1290" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-19" value="密钥交换算法参数（ECDHE）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000FF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="1320" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-20" value="使用会话秘钥加密报文" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=10;fontColor=#B85450;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="611.03" y="1748.0000000000002" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;fontSize=16;" edge="1" parent="1" target="SMTfnlldAPq2TJX3tMAA-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1008.6900000000005" y="675" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1100" y="675" />
+              <mxPoint x="1100" y="1492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-25" value="Client Random&lt;br style=&quot;font-size: 16px;&quot;&gt;客户端生产的随机数" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=20;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="382" y="590" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="SMTfnlldAPq2TJX3tMAA-27" target="SMTfnlldAPq2TJX3tMAA-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1188.69" y="771.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1179" y="771" />
+              <mxPoint x="1179" y="1506" />
+              <mxPoint x="980" y="1506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-27" value="&lt;span style=&quot;background-color: rgb(248, 249, 250); font-size: 16px;&quot;&gt;Server Random&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248, 249, 250); font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250); font-size: 16px;&quot;&gt;服务器生产的随机数&lt;/span&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/windows_domain.svg;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="958.69" y="750" width="50" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-29" value="&lt;span style=&quot;background-color: rgb(248, 249, 250); font-size: 16px;&quot;&gt;Server Random&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248, 249, 250); font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250); font-size: 16px;&quot;&gt;服务器生产的随机数&lt;/span&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/windows_domain.svg;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="375" y="840" width="50" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-32" value="数字证书" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/documents.svg;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="375" y="945" width="33" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-34" value="" style="group;fontSize=16;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="925" width="175" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-35" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=16;image=img/lib/mscae/ClassicIPAddress.svg;" vertex="1" parent="SMTfnlldAPq2TJX3tMAA-34">
+          <mxGeometry x="15.240000000000009" width="107.14" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-36" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;CA 的公钥&lt;/span&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=16;image=img/lib/mscae/Key_Vaults.svg;imageBackground=#66FF66;labelBackgroundColor=#66FF66;" vertex="1" parent="SMTfnlldAPq2TJX3tMAA-34">
+          <mxGeometry x="51.579999999999984" y="27.049999999999955" width="34.46" height="35.9" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-37" value="CA 的公钥已事先置入到了&lt;br style=&quot;font-size: 16px;&quot;&gt;浏览器或操作系统里" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#eeeeee;strokeColor=#36393d;fontSize=16;" vertex="1" parent="SMTfnlldAPq2TJX3tMAA-34">
+          <mxGeometry x="-25" y="90" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-38" value="随机数 S、确认 TLS 版本号、使用密码套件（ECDHE）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;fontColor=#00CC66;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="795" width="410" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-39" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/windows_domain.svg;rotation=-15;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="494.97" y="850" width="23.53" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=16;" edge="1" parent="1" target="SMTfnlldAPq2TJX3tMAA-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="1378" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-44" value="校验证书" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=16;" edge="1" parent="1" source="SMTfnlldAPq2TJX3tMAA-35" target="SMTfnlldAPq2TJX3tMAA-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-46" value="会话秘钥" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Keys_128x128.png;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1478" width="60" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-47" value="&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;客户端随机数&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;服务器随机&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;+&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;pre-master&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;算出会话秘钥&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1517" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-50" value="" style="endArrow=classic;html=1;strokeColor=#0000FF;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="488.5" y="1550" as="sourcePoint" />
+            <mxPoint x="890" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-51" value="Change Cipher Spec&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000FF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="1575" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-52" value="之后改用会话秘钥加密通信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000FF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1600" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-53" value="" style="endArrow=classic;html=1;strokeColor=#0000FF;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="488.5" y="1610" as="sourcePoint" />
+            <mxPoint x="890" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-54" value="Finished" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000FF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="649" y="1630" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-55" value="所有握手数据的摘要" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000FF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="597.8" y="1660" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-64" value="Server Hello Done" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;fontColor=#00CC66;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="612.4999999999999" y="1005" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-65" value="服务器 Hello 完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;fontColor=#00CC66;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="627.8" y="1028" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-66" value="" style="endArrow=classic;html=1;fontColor=#00CC66;strokeColor=#00CC66;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890.5" y="970" as="sourcePoint" />
+            <mxPoint x="487.50000000000045" y="1079.8899999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-67" value="Server Certificate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;fontColor=#00CC66;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="612.8" y="860" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-68" value="服务器使用的证书" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;fontColor=#00CC66;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="612.8" y="895" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-69" value="" style="endArrow=classic;html=1;strokeColor=#00CC66;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="830" as="sourcePoint" />
+            <mxPoint x="487.00000000000045" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-70" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/documents.svg;fontColor=#00CC66;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="752.8" y="870" width="16.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-73" value="" style="endArrow=classic;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" edge="1" parent="1">
+          <mxGeometry x="-0.0161" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="486.13000000000056" y="1708" as="sourcePoint" />
+            <mxPoint x="890" y="1767" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-74" value="" style="endArrow=classic;html=1;dashed=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="1917" as="sourcePoint" />
+            <mxPoint x="894" y="1963" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-75" value="ACK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=16;" vertex="1" connectable="0" parent="SMTfnlldAPq2TJX3tMAA-74">
+          <mxGeometry x="0.0957" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-76" value="ACK" style="endArrow=classic;html=1;dashed=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="1777" as="sourcePoint" />
+            <mxPoint x="490" y="1847" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-77" value="" style="endArrow=classic;html=1;strokeColor=#B85450;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="895" y="1817" as="sourcePoint" />
+            <mxPoint x="490" y="1907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-78" value="&lt;font color=&quot;#b85450&quot; style=&quot;font-size: 16px;&quot;&gt;使用会话秘钥加密报文&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="632.8" y="1857" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-79" value="会话秘钥" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Keys_128x128.png;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="407.99999999999994" y="1680" width="60" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-80" value="会话秘钥" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/general/Keys_128x128.png;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1787" width="60" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-81" value="Client Random&lt;br style=&quot;font-size: 16px;&quot;&gt;客户端生产的随机数" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=20;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="966.0699999999999" y="650" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-82" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=20;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="511.49999999999994" y="600" width="18.69" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-92" value="响应" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#B85450;rotation=-15;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="675.03" y="1837" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-93" value="请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#B85450;rotation=10;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="672.8" y="1717.0000000000002" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-94" value="SYN" style="endArrow=classic;html=1;fontColor=#000000;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#000000;dashed=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="432" as="sourcePoint" />
+            <mxPoint x="890" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-95" value="" style="endArrow=classic;html=1;dashed=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="490" as="sourcePoint" />
+            <mxPoint x="487.00000000000045" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-96" value="SYN + ACK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=16;" vertex="1" connectable="0" parent="SMTfnlldAPq2TJX3tMAA-95">
+          <mxGeometry x="-0.2636" relative="1" as="geometry">
+            <mxPoint x="-30.38" y="2.67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-97" value="ACK" style="endArrow=classic;html=1;fontColor=#000000;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#000000;dashed=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="520" as="sourcePoint" />
+            <mxPoint x="890" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-98" value="Server Key Exchange &amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;fontColor=#00CC66;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="592.3299999999999" y="930" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-99" value="密钥交换算法参数（ECDHE）,签名认证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;fontColor=#00CC66;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="532.3299999999999" y="963" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-100" value="" style="endArrow=classic;html=1;fontColor=#00CC66;strokeColor=#00CC66;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="889.5299999999997" y="895" as="sourcePoint" />
+            <mxPoint x="486.5300000000004" y="1004.8899999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-101" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="393" y="1230" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-102" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Client Params&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;椭圆曲线的公钥&lt;/span&gt;&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="1270" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-103" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="929" y="1340" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="SMTfnlldAPq2TJX3tMAA-104" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Client Params&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;椭圆曲线的公钥&lt;/span&gt;&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1290" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-01-03T07:09:25.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.1.8" etag="NRw2RnU7-jw3i9mbf4mP" type="github"><diagram id="bM3EU00oTMl0SbXYrOo0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-03T07:13:43.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="rA_EWWTpSqT2ov1MCYFW" version="14.1.8" type="github">
+  <diagram id="bM3EU00oTMl0SbXYrOo0" name="第 1 页">
+    <mxGraphModel dx="870" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ll1gwIRUE-XBc6geLJzs-6" value="信任" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=16;" edge="1" parent="1" source="ll1gwIRUE-XBc6geLJzs-1" target="ll1gwIRUE-XBc6geLJzs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ll1gwIRUE-XBc6geLJzs-1" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/user_accounts.svg;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="157.5" width="72.16" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ll1gwIRUE-XBc6geLJzs-2" value="GlobalSign Root CA&lt;br style=&quot;font-size: 16px;&quot;&gt;证书" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="210" y="157.5" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ll1gwIRUE-XBc6geLJzs-3" value="GlobalSign Organization Validation CA - SHA256 - G2&lt;br style=&quot;font-size: 16px;&quot;&gt;证书" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ll1gwIRUE-XBc6geLJzs-4" value="baidu.com&lt;br style=&quot;font-size: 16px;&quot;&gt;证书" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="750" y="320" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ll1gwIRUE-XBc6geLJzs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=16;" edge="1" parent="1" source="ll1gwIRUE-XBc6geLJzs-5" target="ll1gwIRUE-XBc6geLJzs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ll1gwIRUE-XBc6geLJzs-5" value="操作系统或浏览器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="224" y="147.5" width="190" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

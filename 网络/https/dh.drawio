@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T15:53:04.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.1.8" etag="RyGvVf1a80zGlP8gL07s" type="github"><diagram id="eNpCVtULDvzMhEomNmEc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-06T16:07:03.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="UJHVA2jcBW0D0tDgdKoZ" version="14.1.8" type="github">
+  <diagram id="eNpCVtULDvzMhEomNmEc" name="第 1 页">
+    <mxGraphModel dx="870" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hO-K7QOCKYKk4y8eucle-1" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-2" value="服务端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-6" value="" style="endArrow=none;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="hO-K7QOCKYKk4y8eucle-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="640" as="sourcePoint" />
+            <mxPoint x="470" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-7" value="" style="endArrow=none;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="640" as="sourcePoint" />
+            <mxPoint x="679.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-9" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="270" as="sourcePoint" />
+            <mxPoint x="660" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-10" value="Hello" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-11" value="服务端生成一对公私钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="260" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-12" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-13" value="服务端的公钥&lt;br&gt;发送给客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-15" value="客户端也生成一对公私钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="245" y="340" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-16" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="440" as="sourcePoint" />
+            <mxPoint x="660" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-18" value="客户端的公钥&lt;br&gt;发送给服务端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-21" value="服务端的私钥&amp;nbsp;+ &amp;nbsp;客户端的公钥&lt;br&gt;基于公开的算法，&lt;br&gt;算出一个密钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-22" value="客户端的私钥 + 服务端的公钥 &lt;br&gt;基于公开的算法，&lt;br&gt;算出一个密钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="210" y="480" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hO-K7QOCKYKk4y8eucle-23" value="双方算出的密钥都是一样的，&lt;br&gt;所以可以作为后续通信加密使用的&lt;br&gt;对称加密密钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="431" y="570" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

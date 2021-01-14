@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T16:57:04.266Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.1.8" etag="QqnhQJvw2rup9Kd9jxFd" type="github"><diagram id="nFBOnR7pFt75lFdpEW9W">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-14T16:59:08.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="yzSnfH-jwb498aoG30tH" version="14.1.8" type="github">
+  <diagram id="nFBOnR7pFt75lFdpEW9W" name="第 1 页">
+    <mxGraphModel dx="870" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4rIJm-e-SLj0GmD6nEe2-1" value="应用层数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="294" y="80" width="386" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4rIJm-e-SLj0GmD6nEe2-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="294" y="230" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4rIJm-e-SLj0GmD6nEe2-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4rIJm-e-SLj0GmD6nEe2-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="486" y="230" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4rIJm-e-SLj0GmD6nEe2-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="582" y="230" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4rIJm-e-SLj0GmD6nEe2-6" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="486.5" y="160" as="sourcePoint" />
+            <mxPoint x="486.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rIJm-e-SLj0GmD6nEe2-7" value="分段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="495" y="170" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4rIJm-e-SLj0GmD6nEe2-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="330" y="259" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4rIJm-e-SLj0GmD6nEe2-9" value="TCP 段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="307" y="320" width="70" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

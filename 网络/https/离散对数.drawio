@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-01-17T11:52:45.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.2.3" etag="9Bqdrry4rvKHBj5zzLlt" type="github"><diagram id="jCd619aeG0e6ZEZ1rilT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-17T13:17:49.033Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="ocSkxsrZEoK-G9Uw4v0G" version="14.2.3" type="github">
+  <diagram id="jCd619aeG0e6ZEZ1rilT" name="第 1 页">
+    <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1qJ42t7fwOaeXB3smyx6-10" value="&lt;span style=&quot;color: rgb(18 , 18 , 18) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif&quot;&gt;如果对于一个整数 b 和质数 p 的一个原根 a，&lt;br&gt;可以找到一个唯一的指数 i，使得：&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;a&lt;sup&gt;i&amp;nbsp;&lt;/sup&gt;（mod p） = b&lt;/font&gt; 成立&lt;br&gt;&lt;sup&gt;&lt;br&gt;&lt;/sup&gt;&lt;span style=&quot;color: rgb(18 , 18 , 18) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif&quot;&gt;那么&lt;/span&gt;&lt;span style=&quot;color: rgb(18 , 18 , 18)&quot;&gt;指数&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(18 , 18 , 18) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif&quot;&gt;i 称为 b 的以 a 为底数的模 p 的&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;离散对数&lt;sup&gt;&amp;nbsp;&lt;/sup&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=16;fillColor=#fff2cc;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="460" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

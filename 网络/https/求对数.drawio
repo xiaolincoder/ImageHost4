@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-01-17T10:50:22.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.2.3" etag="BTbbPHDsY4UgipHhy7W7" type="github"><diagram id="_AmVxVtIPmGsJ4_27Mqz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-17T10:51:20.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="mxOSBB4HCW1urH8HIhSn" version="14.2.3" type="github">
+  <diagram id="_AmVxVtIPmGsJ4_27Mqz" name="第 1 页">
+    <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xL5qryykyV-t3AY9roZw-1" value="32 = 2&lt;sup style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;5&lt;/font&gt;&lt;/sup&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=16;fillColor=#fff2cc;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xL5qryykyV-t3AY9roZw-2" value="&lt;font color=&quot;#ff0000&quot;&gt;5&lt;/font&gt; = log&lt;sub style=&quot;font-size: 16px&quot;&gt;2&lt;/sub&gt;32" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=16;fillColor=#dae8fc;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xL5qryykyV-t3AY9roZw-3" value="64 = 2&lt;sup style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;6&lt;/font&gt;&lt;/sup&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=16;fillColor=#fff2cc;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="535" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xL5qryykyV-t3AY9roZw-4" value="&lt;font color=&quot;#ff0000&quot;&gt;6&lt;/font&gt; = log&lt;sub style=&quot;font-size: 16px&quot;&gt;2&lt;/sub&gt;64" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=16;fillColor=#dae8fc;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="535" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xL5qryykyV-t3AY9roZw-5" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;指数运算&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xL5qryykyV-t3AY9roZw-6" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;对数运算&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xL5qryykyV-t3AY9roZw-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontFamily=Courier New;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="520" as="sourcePoint" />
+            <mxPoint x="490" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xL5qryykyV-t3AY9roZw-8" value="求 32 的对数：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="25" y="455" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xL5qryykyV-t3AY9roZw-9" value="求 64 的对数：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="25" y="550" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

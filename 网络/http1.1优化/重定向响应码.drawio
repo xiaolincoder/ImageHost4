@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T18:40:10.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="DOyB16yLj5_jGWOoVioK" version="14.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-17T18:41:19.632Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="U_dFwvOWnRIJcjcJkfoe" version="14.4.0" type="github">
   <diagram id="Aa-ynSinehAqvtTTWTuL" name="第 1 页">
     <mxGraphModel dx="830" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="v3veHn6MYHzDtGuoauzr-14" value="Permanent Redirect" style="rounded=0;whiteSpace=wrap;fontSize=16;fontFamily=Times New Roman;fontStyle=0;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="v3veHn6MYHzDtGuoauzr-20">
           <mxGeometry x="130.7142857142857" y="224.00000000000003" width="206.9642857142857" height="56.00000000000001" as="geometry" />
         </mxCell>
-        <mxCell id="v3veHn6MYHzDtGuoauzr-15" value="资源永久性的重定向到另一个 URI 中" style="rounded=0;whiteSpace=wrap;fontSize=16;fontFamily=Times New Roman;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="v3veHn6MYHzDtGuoauzr-20">
+        <mxCell id="v3veHn6MYHzDtGuoauzr-15" value="资源永久的重定向到另一个 URI 中" style="rounded=0;whiteSpace=wrap;fontSize=16;fontFamily=Times New Roman;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="v3veHn6MYHzDtGuoauzr-20">
           <mxGeometry x="331.14285714285705" width="278.8571428571428" height="56.00000000000001" as="geometry" />
         </mxCell>
         <mxCell id="v3veHn6MYHzDtGuoauzr-16" value="资源临时的重定向到另一个 URI 中" style="rounded=0;whiteSpace=wrap;fontSize=16;fontFamily=Times New Roman;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="v3veHn6MYHzDtGuoauzr-20">

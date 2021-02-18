@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T13:12:58.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="bajP84a9kyerEiHnEdBq" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-18T13:14:52.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="dQYHsQloRr-mHZlnt66K" version="14.4.2" type="github">
   <diagram id="ts_fvJHNPLpuKW8flP1S" name="第 1 页">
     <mxGraphModel dx="830" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Zb_zcwVqDSQe3M5Lo-tJ-52" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="130" y="60" width="640" height="380" as="geometry" />
+          <mxGeometry x="120" y="80" width="650" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="Zb_zcwVqDSQe3M5Lo-tJ-51" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="130" y="460" width="640" height="370" as="geometry" />
+        <mxCell id="Zb_zcwVqDSQe3M5Lo-tJ-51" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="120" y="460" width="650" height="370" as="geometry" />
         </mxCell>
         <mxCell id="Zb_zcwVqDSQe3M5Lo-tJ-23" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 16px ; font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; display: inline ; float: none ; background-color: rgb(153 , 255 , 204)&quot;&gt;2. HTTP 响应：资源1&amp;nbsp;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="Zb_zcwVqDSQe3M5Lo-tJ-24" target="Zb_zcwVqDSQe3M5Lo-tJ-27">
           <mxGeometry relative="1" as="geometry">
@@ -46,7 +46,7 @@
           <mxGeometry x="271.37" y="410" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Zb_zcwVqDSQe3M5Lo-tJ-33" value="第一次访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
-          <mxGeometry x="140" y="120" width="120" height="30" as="geometry" />
+          <mxGeometry x="120" y="80" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zb_zcwVqDSQe3M5Lo-tJ-34" value="服务器" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="640" y="480" width="72" height="90" as="geometry" />
@@ -89,7 +89,7 @@
           <mxGeometry x="145" y="730" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zb_zcwVqDSQe3M5Lo-tJ-44" value="第二次访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
-          <mxGeometry x="140" y="490" width="120" height="30" as="geometry" />
+          <mxGeometry x="120" y="460" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zb_zcwVqDSQe3M5Lo-tJ-45" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 16px ; font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; display: inline ; float: none ; background-color: rgb(153 , 255 , 204)&quot;&gt;5. HTTP 响应码：304&amp;nbsp;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -128,6 +128,9 @@
             <mxPoint x="112.75" y="450" as="sourcePoint" />
             <mxPoint x="787.25" y="450" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Zb_zcwVqDSQe3M5Lo-tJ-54" value="6. 收到 304 响应后，&lt;br&gt;使用继续使用资源1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

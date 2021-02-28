@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T16:52:04.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="VmSj0ZJbOwHTNAbHiW6w" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-28T16:52:41.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="sTGb3qnHZ11zx0Untwqv" version="14.4.2" type="github">
   <diagram id="oYbf4CSWEY5Lq7zBlpOM" name="第 1 页">
-    <mxGraphModel dx="1026" dy="2199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" width="1150" height="390" as="geometry" />
+        </mxCell>
         <mxCell id="-BHfIEJIRu2oVGEaSOlL-2" value="帧长度&lt;br&gt;24 bits" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" y="70" width="360" height="50" as="geometry" />
         </mxCell>
@@ -39,8 +42,8 @@
         </mxCell>
         <mxCell id="-BHfIEJIRu2oVGEaSOlL-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=19;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="480" as="sourcePoint" />
-            <mxPoint x="550" y="-10" as="targetPoint" />
+            <mxPoint x="550" y="390" as="sourcePoint" />
+            <mxPoint x="550" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-BHfIEJIRu2oVGEaSOlL-14" value="数据长度&lt;br&gt;（变长编码，最多 8 个字节）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">

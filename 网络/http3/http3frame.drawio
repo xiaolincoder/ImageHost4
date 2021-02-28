@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T16:44:36.199Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.4.2" etag="YTvAiFTpEZzkMLZwDnM9" type="github"><diagram id="oYbf4CSWEY5Lq7zBlpOM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-28T16:52:04.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="VmSj0ZJbOwHTNAbHiW6w" version="14.4.2" type="github">
+  <diagram id="oYbf4CSWEY5Lq7zBlpOM" name="第 1 页">
+    <mxGraphModel dx="1026" dy="2199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-2" value="帧长度&lt;br&gt;24 bits" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-3" value="帧类型&lt;br&gt;8 bits" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-4" value="标志位&lt;br&gt;8 bits" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-5" value="R&lt;br&gt;1 bits" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="55.38461538461539" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-6" value="流标识符&lt;br&gt;31 bits" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="215.3846153846154" y="170" width="304.6153846153846" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-7" value="实际传输的数据&lt;br&gt;（HTTP Header/Body）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-8" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;HTTP/2&amp;nbsp;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;Frame&amp;nbsp;Header" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry y="125" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-9" value="HTTP/2&amp;nbsp;&lt;br&gt;Frame&amp;nbsp;Payload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-12" value="HTTP/2&amp;nbsp;&lt;span style=&quot;font-size: 19px ; color: rgb(51 , 51 , 51) ; font-family: &amp;quot;pingfang sc&amp;quot; , &amp;quot;lantinghei sc&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;hiragino sans gb&amp;quot; , &amp;quot;microsoft sans serif&amp;quot; , &amp;quot;wenquanyi micro hei&amp;quot; , &amp;quot;helvetica&amp;quot; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;帧格式&lt;/span&gt;&lt;br style=&quot;font-size: 19px&quot;&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="35" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=19;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="480" as="sourcePoint" />
+            <mxPoint x="550" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-14" value="数据长度&lt;br&gt;（变长编码，最多 8 个字节）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="120" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-19" value="实际传输的数据&lt;br&gt;（HTTP Header/Body）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="170" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-20" value="&lt;span style=&quot;font-size: 16px&quot;&gt;HTTP/3&amp;nbsp;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/span&gt;Frame&amp;nbsp;Header" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="980" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-21" value="HTTP/3&amp;nbsp;&lt;br&gt;Frame&amp;nbsp;Payload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="990" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=-181;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="950" y="75" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="950" y="170" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-24" value="HTTP/3&amp;nbsp;&lt;span style=&quot;font-size: 19px ; color: rgb(51 , 51 , 51) ; font-family: &amp;quot;pingfang sc&amp;quot; , &amp;quot;lantinghei sc&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;hiragino sans gb&amp;quot; , &amp;quot;microsoft sans serif&amp;quot; , &amp;quot;wenquanyi micro hei&amp;quot; , &amp;quot;helvetica&amp;quot; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;帧格式&lt;/span&gt;&lt;br style=&quot;font-size: 19px&quot;&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="670" y="35" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-BHfIEJIRu2oVGEaSOlL-25" value="帧类型&lt;br&gt;（变长编码，最多 8 个字节）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="70" width="360" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

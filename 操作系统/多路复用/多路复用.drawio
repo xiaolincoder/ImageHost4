@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T13:47:11.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.4.8" etag="y8X0EnYJnejAjzN_RMq9" type="github"><diagram id="bb2frIzyXnkYCLLNI0Bi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-16T13:50:58.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="mUVp-viyeCvybcliZzsj" version="14.4.8" type="github">
+  <diagram id="bb2frIzyXnkYCLLNI0Bi" name="第 1 页">
+    <mxGraphModel dx="937" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ma0AodK91sVEuBTt1Sbv-2" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ma0AodK91sVEuBTt1Sbv-3" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ma0AodK91sVEuBTt1Sbv-4" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ma0AodK91sVEuBTt1Sbv-5" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ma0AodK91sVEuBTt1Sbv-6" value="..." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="610" y="190" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ma0AodK91sVEuBTt1Sbv-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=-90;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="20" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ma0AodK91sVEuBTt1Sbv-9" value="进程关心的 socket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ma0AodK91sVEuBTt1Sbv-10" value="进程" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ma0AodK91sVEuBTt1Sbv-11" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="444.5" y="290" as="sourcePoint" />
+            <mxPoint x="444.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

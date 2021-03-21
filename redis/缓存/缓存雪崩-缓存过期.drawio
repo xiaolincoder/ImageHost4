@@ -1,1 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2021-03-21T05:27:01.418Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.4.9" etag="RQBWnj8Lq62km3TaSFZv" type="github"><diagram id="FVyl4ency-_NnCpRaDbf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-21T05:27:08.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="6zDltduOlf7RBZQ74pUk" version="14.4.9" type="github">
+  <diagram id="FVyl4ency-_NnCpRaDbf" name="第 1 页">
+    <mxGraphModel dx="937" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AkXfAmGSQscNVps8D4sC-1" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontSize=16;labelBorderColor=#FF00FF;fillColor=#fa6800;strokeColor=none;" edge="1" parent="1" source="AkXfAmGSQscNVps8D4sC-2" target="AkXfAmGSQscNVps8D4sC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="255" />
+              <mxPoint x="270" y="601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkXfAmGSQscNVps8D4sC-2" value="web 应用" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AkXfAmGSQscNVps8D4sC-3" value="缓存" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=16;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="337.38" y="400" width="95.24" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AkXfAmGSQscNVps8D4sC-4" value="数据库" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=16;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="550" width="75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AkXfAmGSQscNVps8D4sC-5" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;endWidth=24.705882352941178;endSize=5.608333333333334;width=26.666666666666668;fillColor=#ffcc99;strokeColor=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="384.5799999999999" y="300" as="sourcePoint" />
+            <mxPoint x="384.5799999999999" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkXfAmGSQscNVps8D4sC-6" value="1. 大量读请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="414" y="330" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AkXfAmGSQscNVps8D4sC-7" value="2. 大量缓存同时过期，&lt;br&gt;缓存都未命中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#ffff88;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AkXfAmGSQscNVps8D4sC-8" value="3. 大量请求&lt;br&gt;直接访问数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#ffcccc;" vertex="1" parent="1">
+          <mxGeometry x="130" y="460" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AkXfAmGSQscNVps8D4sC-9" value="我快扛不住了..." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;size=30;position=0.33;position2=0.08;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="432.62" y="542" width="120" height="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

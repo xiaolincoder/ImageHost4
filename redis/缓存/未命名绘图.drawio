@@ -1,44 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2021-03-21T04:38:00.005Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="cypa_o3NX0_yC-cbUu7u" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-21T04:56:37.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="4HFEN6t_KaF2tq8dZCb8" version="14.4.9" type="github">
   <diagram id="ePmiQgrbOddq5dNOTLal" name="第 1 页">
     <mxGraphModel dx="937" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-1" value="缓存异常" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-1" value="缓存异常" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="100" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-2" value="产生原因" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-2" value="产生原因" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="220" y="210" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-3" value="应对方案" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-3" value="应对方案" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="450" y="210" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-4" value="缓存雪崩" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="100" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-4" value="缓存雪崩" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#fff2cc;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="100" y="270" width="120" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-5" value="&lt;ul&gt;&lt;li&gt;大量数据同时过期&lt;br&gt;&lt;/li&gt;&lt;li&gt;Redis 故障宕机&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
-          <mxGeometry x="220" y="270" width="230" height="60" as="geometry" />
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-5" value="大量数据同时过期" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#fff2cc;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="220" y="270" width="230" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-6" value="&lt;ul&gt;&lt;li&gt;均匀设置过期时间&lt;br&gt;&lt;/li&gt;&lt;li&gt;互斥锁&lt;br&gt;&lt;/li&gt;&lt;li&gt;双 key 策略&lt;br&gt;&lt;/li&gt;&lt;li&gt;后台更新缓存&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="450" y="270" width="380" height="60" as="geometry" />
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-6" value="&lt;div&gt;- 均匀设置过期时间，避免同一时间过期&lt;/div&gt;&lt;div&gt;- 互斥锁，保证同一时间只有一个应用在构建缓存&lt;/div&gt;&lt;div&gt;- 双 key 策略，主 key 设置过期时间，备 key 永久，主 key 过期时，返回备 key 的内容&lt;/div&gt;&lt;div&gt;- 后台更新缓存，定时更新、消息队列通知更新&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;fillColor=#fff2cc;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="450" y="270" width="380" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-7" value="缓存击穿" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="100" y="450" width="120" height="60" as="geometry" />
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-7" value="缓存击穿" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#fff2cc;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="100" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-8" value="频繁访问的热点数据过期" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
-          <mxGeometry x="220" y="450" width="230" height="60" as="geometry" />
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-8" value="频繁访问的热点数据过期" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#fff2cc;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="220" y="470" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-9" value="应对方案" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="450" y="450" width="380" height="60" as="geometry" />
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-9" value="- 互斥锁&lt;br&gt;- 不给热点数据设置过期时间，由后台更新缓存" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;fillColor=#fff2cc;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="450" y="470" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-10" value="缓存穿透" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="100" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-10" value="缓存穿透" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#fff2cc;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="100" y="530" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-11" value="访问的数据既不在缓存，也不在数据库。" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
-          <mxGeometry x="220" y="510" width="230" height="60" as="geometry" />
+        <mxCell id="50HY2KO_7Ch5yhQKuEp1-11" value="访问的数据既不在缓存，也不在数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#fff2cc;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="220" y="530" width="230" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="50HY2KO_7Ch5yhQKuEp1-12" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
-          <mxGeometry x="620" y="350" width="120" height="80" as="geometry" />
+        <mxCell id="dYBH0ZY61PXVmtoACU0x-1" value="Redis 故障宕机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#fff2cc;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dYBH0ZY61PXVmtoACU0x-2" value="- 服务熔断&lt;br&gt;- 请求限流&lt;br&gt;- 构建 Redis 缓存高可靠集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;fillColor=#fff2cc;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dYBH0ZY61PXVmtoACU0x-3" value="&lt;div&gt;- 非法请求的限制；&lt;/div&gt;&lt;div&gt;- 缓存空值或者默认值；&lt;/div&gt;&lt;div&gt;- 使用布隆过滤器快速判断数据是否存在；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;fillColor=#fff2cc;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="450" y="530" width="380" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

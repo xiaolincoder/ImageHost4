@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2021-03-21T05:08:30.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.4.9" etag="nt3oCgRvRhxM_0VR6_D-" type="github"><diagram id="voLM7vr0VenAc_k1Bgvw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-21T05:17:27.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="_vIa_6HYsVUZwAoOt2tZ" version="14.4.9" type="github">
+  <diagram id="voLM7vr0VenAc_k1Bgvw" name="第 1 页">
+    <mxGraphModel dx="1102" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pbOvVd2OR16P87UhzKik-8" value="1. 读请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="pbOvVd2OR16P87UhzKik-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="342" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="342" y="325" />
+              <mxPoint x="342" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pbOvVd2OR16P87UhzKik-2" value="web 应用" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pbOvVd2OR16P87UhzKik-9" value="3. 返回结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" target="pbOvVd2OR16P87UhzKik-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="370" as="sourcePoint" />
+            <mxPoint x="383" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="428" y="360" />
+              <mxPoint x="428" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pbOvVd2OR16P87UhzKik-3" value="缓存" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=16;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="337.38" y="370" width="95.24" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pbOvVd2OR16P87UhzKik-4" value="数据库" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=16;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="500" width="75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pbOvVd2OR16P87UhzKik-10" value="2. 缓存命中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

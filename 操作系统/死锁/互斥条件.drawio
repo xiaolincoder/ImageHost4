@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T14:58:41.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.4.9" etag="j79UeFHGbRGBlFuFuXeZ" type="github"><diagram id="NC2MrYRLxS8lgYiBBq4R">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-30T15:11:58.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="e3O_vamteZqCzLP0t57o" version="14.4.9" type="github">
+  <diagram id="NC2MrYRLxS8lgYiBBq4R" name="第 1 页">
+    <mxGraphModel dx="937" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-1" value="线程 A&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="140" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dtAw9eA9v_uJAgE4TnsN-2" target="dtAw9eA9v_uJAgE4TnsN-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="384" y="360" />
+              <mxPoint x="180" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-2" value="资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="dtAw9eA9v_uJAgE4TnsN-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="360" />
+              <mxPoint x="440" y="360" />
+              <mxPoint x="440" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-3" value="线程 B&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="610" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-4" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="269.5" as="sourcePoint" />
+            <mxPoint x="330" y="269.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-5" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="269.5" as="sourcePoint" />
+            <mxPoint x="500" y="269.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-6" value="1. 已经持有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-7" value="2. 想要获取资源，被阻塞" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="473.5" y="220" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-9" value="3. 释放资源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAw9eA9v_uJAgE4TnsN-11" value="4. 被唤醒，并获取资源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="370" width="140" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

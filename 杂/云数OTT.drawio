@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T08:52:02.407Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="A8WwKdon5fhxzhDCgeR8" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-02T08:54:30.643Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="EUof-V5EpGHSpbqQxTEx" version="14.4.2" type="github">
   <diagram id="8YcqIfKOJtz9LTvwkZPz" name="第 1 页">
     <mxGraphModel dx="1102" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,6 +139,18 @@
         </mxCell>
         <mxCell id="Vli8Tv3BmSBitWUGqj1g-56" value="负载均衡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="482.5" y="-350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vli8Tv3BmSBitWUGqj1g-58" value="PC端域名访问" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-680" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vli8Tv3BmSBitWUGqj1g-59" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=17;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5" y="-584.5" as="sourcePoint" />
+            <mxPoint x="389.5" y="-504.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vli8Tv3BmSBitWUGqj1g-60" value="解析本地 host，&lt;br&gt;然后访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-570" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

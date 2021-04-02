@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T08:50:28.066Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="dX5XV8HwJpJpHwpykola" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-02T08:51:22.108Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="wQmSQKbM6VoVBnP8MRLN" version="14.4.2" type="github">
   <diagram id="8YcqIfKOJtz9LTvwkZPz" name="第 1 页">
     <mxGraphModel dx="1102" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,6 +101,12 @@
         <mxCell id="Vli8Tv3BmSBitWUGqj1g-30" value="VIP &lt;br&gt;192.168.60.21" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="327.5" y="-440" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Vli8Tv3BmSBitWUGqj1g-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=17;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vli8Tv3BmSBitWUGqj1g-41" target="Vli8Tv3BmSBitWUGqj1g-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vli8Tv3BmSBitWUGqj1g-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=17;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vli8Tv3BmSBitWUGqj1g-41" target="Vli8Tv3BmSBitWUGqj1g-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vli8Tv3BmSBitWUGqj1g-41" value="&lt;b&gt;Nginx&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="191.25" y="-300" width="420" height="130" as="geometry" />
         </mxCell>
@@ -127,6 +133,12 @@
         </mxCell>
         <mxCell id="Vli8Tv3BmSBitWUGqj1g-52" value="host 文件&lt;br style=&quot;font-size: 17px;&quot;&gt;找到对应的 IP 地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="410" y="65" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vli8Tv3BmSBitWUGqj1g-55" value="反向代理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vli8Tv3BmSBitWUGqj1g-56" value="负载均衡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="-350" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

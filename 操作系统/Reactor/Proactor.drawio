@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T15:11:30.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="XLNDjAq3h5eHpgw5a991" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T15:14:45.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="ZUnd6qr9MK_3vv9wInQ6" version="14.6.5" type="github">
   <diagram id="9x6UDvH0Cp7vfsusiMpG" name="第 1 页">
     <mxGraphModel dx="1379" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qCoTKjnpwcHFoO7noeCt-14" value="内核进程" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;verticalAlign=top;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="65" width="380" height="390" as="geometry" />
+        <mxCell id="qCoTKjnpwcHFoO7noeCt-14" value="&lt;b&gt;内核进程&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;verticalAlign=top;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="20" width="380" height="435" as="geometry" />
         </mxCell>
-        <mxCell id="qCoTKjnpwcHFoO7noeCt-13" value="应用进程" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;verticalAlign=top;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="70" width="250" height="380" as="geometry" />
+        <mxCell id="qCoTKjnpwcHFoO7noeCt-13" value="&lt;b&gt;应用进程&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;verticalAlign=top;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="250" height="430" as="geometry" />
         </mxCell>
         <mxCell id="qCoTKjnpwcHFoO7noeCt-5" value="1.1 创建" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="qCoTKjnpwcHFoO7noeCt-1" target="qCoTKjnpwcHFoO7noeCt-4">
           <mxGeometry relative="1" as="geometry" />
@@ -45,6 +45,12 @@
         </mxCell>
         <mxCell id="qCoTKjnpwcHFoO7noeCt-15" value="client" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fillColor=#ffcccc;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-90" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qCoTKjnpwcHFoO7noeCt-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=7;arrowHead=27.5;dx2=25.5;labelBackgroundColor=none;fontSize=16;rotation=90;fillColor=#ffcc99;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="65" width="45" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qCoTKjnpwcHFoO7noeCt-18" value="2 处理注册请求&lt;br&gt;完成 I/O 操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="707" y="72.5" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

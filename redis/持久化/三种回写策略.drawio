@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T13:55:10.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.6.11" etag="LHGQ0va7yzBN5M3TXMgj" type="github"><diagram id="lEJlkKD_YYHdTv-a9vSD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-24T14:01:39.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="ka3pa5DZ704RM4lF2bzI" version="14.6.11" type="github">
+  <diagram id="lEJlkKD_YYHdTv-a9vSD" name="第 1 页">
+    <mxGraphModel dx="946" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mcmR9kDVMPOARum-n9kd-1" value="写回策略" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-2" value="写回时机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-5" value="Always" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-6" value="同步写回" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-9" value="Everysec" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-10" value="每秒写回" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-13" value="No" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-14" value="由操作系统控制写回" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-17" value="" style="group;strokeColor=#CCCCCC;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="80" width="330" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-3" value="优点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#CCCCCC;" vertex="1" parent="mcmR9kDVMPOARum-n9kd-17">
+          <mxGeometry width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-4" value="缺点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#CCCCCC;" vertex="1" parent="mcmR9kDVMPOARum-n9kd-17">
+          <mxGeometry x="165" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-7" value="可靠性高、最大程度保证数不丢失" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="mcmR9kDVMPOARum-n9kd-17">
+          <mxGeometry y="60" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-8" value="每个写命令都要写回硬盘，性能开销大" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="mcmR9kDVMPOARum-n9kd-17">
+          <mxGeometry x="165" y="60" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-11" value="性能适中" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="mcmR9kDVMPOARum-n9kd-17">
+          <mxGeometry y="120" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-12" value="宕机时会丢失1秒内的数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="mcmR9kDVMPOARum-n9kd-17">
+          <mxGeometry x="165" y="120" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-15" value="性能好" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="mcmR9kDVMPOARum-n9kd-17">
+          <mxGeometry y="180" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcmR9kDVMPOARum-n9kd-16" value="宕机时丢失的数据可能会很多" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#CCCCCC;" vertex="1" parent="mcmR9kDVMPOARum-n9kd-17">
+          <mxGeometry x="165" y="180" width="165" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

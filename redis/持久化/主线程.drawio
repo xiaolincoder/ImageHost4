@@ -1,1 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T13:49:46.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.6.11" etag="atr-gTZj0R5W0zCacACO" type="github"><diagram id="aGwH4Oac2PAKLjdeeC-v">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-24T13:53:35.868Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="i3T7mzwyCu-rzX7fhYSQ" version="14.6.11" type="github">
+  <diagram id="aGwH4Oac2PAKLjdeeC-v" name="第 1 页">
+    <mxGraphModel dx="946" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u_9O9T41olWYfUHcP5o8-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="110" width="210" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="u_9O9T41olWYfUHcP5o8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_9O9T41olWYfUHcP5o8-1" target="u_9O9T41olWYfUHcP5o8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_9O9T41olWYfUHcP5o8-1" value="执行命令" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u_9O9T41olWYfUHcP5o8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_9O9T41olWYfUHcP5o8-2" target="u_9O9T41olWYfUHcP5o8-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="350" />
+              <mxPoint x="420" y="350" />
+              <mxPoint x="420" y="140" />
+              <mxPoint x="325" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_9O9T41olWYfUHcP5o8-2" value="记录 AOF 日志" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u_9O9T41olWYfUHcP5o8-6" value="Rredis 主线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T14:08:54.425Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.6.11" etag="QBT1fih18IbR0gLOvDIp" type="github"><diagram id="FE-ykhBFxGosaGApC80K">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-24T14:23:58.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="657Avva-oYX7GFKndM6d" version="14.6.11" type="github">
+  <diagram id="FE-ykhBFxGosaGApC80K" name="第 1 页">
+    <mxGraphModel dx="1351" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-20" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;set name xiaolincoding&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="95" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-2" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;set name xiaolin&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;set name xiaolincoding&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-4" value="Redis逐渐执行命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="130" y="90" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-5" value="name:xiaolin" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-6" value="name:xiaolincoding" style="rounded=1;html=1;fontSize=16;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-7" value="Redis内存中的数据变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-9" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="209.5" as="sourcePoint" />
+            <mxPoint x="360" y="209.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-11" value="name:xiaolincoding" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="660" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-12" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="210" as="sourcePoint" />
+            <mxPoint x="630" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-13" value="Redis内存中的最新数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-14" value="AOF 重写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="550" y="170" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-16" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="209.5" as="sourcePoint" />
+            <mxPoint x="980" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-17" value="转化成命令，&lt;br&gt;并记录到重写日志" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="840" y="150" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lL9q95Bzmjh6f7aJ1uSb-21" value="重写后，AOF 日志只记录一条命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="970" y="350" width="260" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

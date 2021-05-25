@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T15:41:32.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.6.11" etag="YQSGqUT6deqforin4Qvn" type="github"><diagram id="BKkGTVks8HZcBpXAjnmx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-25T15:55:42.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="GauO32yEdiItmUB919f_" version="14.6.11" type="github">
+  <diagram id="BKkGTVks8HZcBpXAjnmx" name="第 1 页">
+    <mxGraphModel dx="946" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-1" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="210" y="230" width="55" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-2" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="231" width="89" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-3" value="感谢小林啊，这下我对 AOF 持久化技有了更深的认识。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-4" value="客气啦，小意思小意思。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="401.88" y="140" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-5" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="560" width="55" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-6" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="561" width="89" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-7" value="那 Redis 另外一个持久化技术，是怎么实现的呢？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="217.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-8" value="你说的是&amp;nbsp;RDB 快照啊，它比 AOF 恢复数据的速度快很多。&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="396.88" y="440" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-9" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="880" width="55" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-10" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="881" width="89" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-11" value="对对对，我想听小林说说 RDB &amp;nbsp;快照。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="150" y="730" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-12" value="好，RDB 快照。。。。。&lt;br&gt;。。。。。。。。。。。。&lt;br&gt;。。。。。。。zzzZZ" style="shape=callout;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="770" width="208.75" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-14" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1181" width="89" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-15" value="啊，小林说困了啊。。。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1030" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-16" value="zzzZZ～～" style="shape=callout;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1090" width="162.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nD7Rp97YK77HFNKJ4nLf-17" value="" style="shape=mxgraph.signs.sports.baseball;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1168" width="61.5" height="111" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

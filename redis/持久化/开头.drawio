@@ -1,58 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T09:35:00.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="oo3Wc2NWgJv6CodBRUEf" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T16:07:41.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="S3j3iCZDjPaDDNSy61er" version="14.6.11" type="github">
   <diagram id="qIdzOmbFf2P8db_cpe1N" name="第 1 页">
     <mxGraphModel dx="946" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-4" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-4" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="220" y="260" width="55" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-5" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-5" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="410" y="261" width="89" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-6" value="诶，小林&lt;br style=&quot;font-size: 16px&quot;&gt;我刚不小心把redis进程关掉了，&lt;br&gt;我缓存的数据是不是全部都没了？我要不要跑路？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-6" value="诶，小林&lt;br style=&quot;font-size: 16px&quot;&gt;我刚不小心把redis进程关掉了，&lt;br&gt;我缓存的数据是不是全部都没了？我要不要跑路？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" vertex="1">
           <mxGeometry x="130" y="110" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-7" value="瞧把你吓成绿巨人了" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-7" value="瞧把你吓成绿巨人了" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="420" y="170" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-8" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-8" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="210" y="580" width="55" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-9" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-9" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="400" y="581" width="89" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-10" value="额。。。&lt;br&gt;我现在是很慌&lt;br&gt;有办法恢复吗？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
-          <mxGeometry x="152.5" y="440" width="190" height="130" as="geometry" />
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-10" value="额。。。&lt;br&gt;我现在是很慌&lt;br&gt;有办法恢复吗？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" vertex="1">
+          <mxGeometry x="152.5" y="430" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-11" value="redis 虽说是内存数据库，但是 redis 其实是会把缓存数据保存到硬盘的，只要保存缓存数据的文件没有丢，缓存数据自然就能恢复。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="390" y="460" width="270" height="135" as="geometry" />
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-11" value="Redis 虽说是内存数据库，但是&amp;nbsp;Redis&amp;nbsp;其实是会把缓存数据保存到硬盘的，只要保存缓存数据的文件没有丢，缓存数据自然就能恢复。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="390" y="450" width="260" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-12" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-12" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="210" y="930" width="55" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-13" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-13" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="400" y="931" width="89" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-14" value="你的意思是 redis 自带持久化技术？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;size=50;position=0.57;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-14" value="你的意思是 redis 自带持久化技术？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;size=50;position=0.57;" parent="1" vertex="1">
           <mxGeometry x="152.5" y="760" width="190" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-15" value="对啊，一看你平时就没好好做功课。&lt;br&gt;&lt;br&gt;redis 共有两种持久化技术，分别是 AOF 日志和 RDB 快照。&lt;br&gt;&lt;br&gt;redis 默认会开启 RDB 快照，所以你的 redis 重启下，之前的缓存数据就会被重新加载了" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;size=35;position=0.24;position2=0.23;" vertex="1" parent="1">
-          <mxGeometry x="414" y="780" width="330" height="180" as="geometry" />
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-15" value="对啊，一看你平时就没好好做功课。&lt;br&gt;&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;Redis&lt;/span&gt;&amp;nbsp;共有两种持久化技术，分别是 AOF 日志和 RDB 快照。&lt;br&gt;&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;Redis&lt;/span&gt;&amp;nbsp;默认会开启 RDB 快照，所以你的&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;Redis&lt;/span&gt;&amp;nbsp;重启下，之前的缓存数据就会被重新加载了。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;size=35;position=0.24;position2=0.23;" parent="1" vertex="1">
+          <mxGeometry x="420" y="720" width="260" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-16" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-16" value="" style="shape=mxgraph.signs.people.walking;html=1;pointerEvents=1;fillColor=#008a00;strokeColor=#005700;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="210" y="1290" width="55" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-17" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-17" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="400" y="1291" width="89" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-18" value="咦，还真是，缓存的数据恢复了，好神奇！&lt;br&gt;小林，可以给我讲下这两种持久化技术吗？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;size=50;position=0.57;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-18" value="咦，还真是，缓存的数据恢复了，好神奇！&lt;br&gt;&lt;br&gt;小林，可以给我讲下这两种持久化技术吗？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;size=50;position=0.57;" parent="1" vertex="1">
           <mxGeometry x="152.5" y="1120" width="190" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-19" value="可以，今天就给你上一堂课。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;size=35;position=0.24;position2=0.23;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1190" width="230" height="100" as="geometry" />
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-19" value="可以，今天就给你上一堂课。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;size=35;position=0.24;position2=0.23;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1190" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-21" value="公众号@小林coding" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-21" value="公众号@小林coding" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=13;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="499" y="1350" width="130" height="20" as="geometry" />
         </mxCell>
       </root>

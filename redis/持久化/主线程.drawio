@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T15:09:28.999Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="dhTKZPBp3vvsEnR5M-hW" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T15:09:39.433Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="JJusAZg_mB4MVYf0tkWe" version="14.6.11" type="github">
   <diagram id="aGwH4Oac2PAKLjdeeC-v" name="第 1 页">
     <mxGraphModel dx="946" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="aEa0rDc-IlXPrKh5FmFm-6" value="Redis&lt;br style=&quot;font-size: 16px;&quot;&gt;数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="90" y="290" width="90" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aEa0rDc-IlXPrKh5FmFm-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=classic;endFill=1;" edge="1" parent="1" source="aEa0rDc-IlXPrKh5FmFm-7" target="aEa0rDc-IlXPrKh5FmFm-9">
+        <mxCell id="aEa0rDc-IlXPrKh5FmFm-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="aEa0rDc-IlXPrKh5FmFm-7" target="aEa0rDc-IlXPrKh5FmFm-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aEa0rDc-IlXPrKh5FmFm-7" value="AOF&lt;br style=&quot;font-size: 16px;&quot;&gt;缓冲" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=none;fontSize=16;" vertex="1" parent="1">

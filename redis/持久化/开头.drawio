@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T16:07:41.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="S3j3iCZDjPaDDNSy61er" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T16:30:45.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="jeFSbiimD_YhlyqrJHNa" version="14.6.11" type="github">
   <diagram id="qIdzOmbFf2P8db_cpe1N" name="第 1 页">
     <mxGraphModel dx="946" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="xLS2lG7_SsmKWSn_wl7B-5" value="" style="shape=mxgraph.signs.people.waiting_room_2;html=1;pointerEvents=1;fillColor=#0050ef;strokeColor=#001DBC;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="410" y="261" width="89" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="xLS2lG7_SsmKWSn_wl7B-6" value="诶，小林&lt;br style=&quot;font-size: 16px&quot;&gt;我刚不小心把redis进程关掉了，&lt;br&gt;我缓存的数据是不是全部都没了？我要不要跑路？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" vertex="1">
-          <mxGeometry x="130" y="110" width="250" height="130" as="geometry" />
+        <mxCell id="xLS2lG7_SsmKWSn_wl7B-6" value="诶，小林&lt;br style=&quot;font-size: 16px&quot;&gt;我刚不小心把 Redis 进程关掉了，我缓存的数据是不是全部都没了？我要不要跑路？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" vertex="1">
+          <mxGeometry x="150" y="110" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="xLS2lG7_SsmKWSn_wl7B-7" value="瞧把你吓成绿巨人了" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="420" y="170" width="160" height="90" as="geometry" />

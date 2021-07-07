@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T01:29:39.639Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.3" etag="sZDSA5URAvR0mbwvdURO" type="github"><diagram id="KcQEca9JL7g3TqS-iyPj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-07T01:33:44.367Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="fU_fsnAicB20Olu-sAGx" version="14.8.3" type="github">
+  <diagram id="KcQEca9JL7g3TqS-iyPj" name="第 1 页">
+    <mxGraphModel dx="1102" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="woIwUY9T-IzACjgxkabe-1" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#36393d;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="40" as="sourcePoint" />
+            <mxPoint x="200" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-2" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#36393d;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="40" as="sourcePoint" />
+            <mxPoint x="400" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-3" value="请求A" style="endArrow=classic;html=1;fontSize=16;fillColor=#ffff88;strokeWidth=2;strokeColor=#3399FF;fontColor=#3399FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="206.67000000000007" y="130" as="sourcePoint" />
+            <mxPoint x="386.6700000000001" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-4" value="响应B" style="endArrow=classic;html=1;fontSize=16;strokeWidth=2;strokeColor=#00CC00;fontColor=#00CC00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="386.6700000000001" y="200" as="sourcePoint" />
+            <mxPoint x="206.67000000000007" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-5" value="服务器" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-70" width="56" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-6" value="浏览器" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/home_page.svg;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-60" width="66.67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-7" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;fontSize=16;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="210" y="100" as="sourcePoint" />
+            <mxPoint x="380" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-8" value="TCP 三次握手&lt;br style=&quot;font-size: 16px;&quot;&gt;建立连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fontSize=16;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="236.67" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-11" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;fontSize=16;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="211.67000000000002" y="520" as="sourcePoint" />
+            <mxPoint x="381.67" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-12" value="TCP 四次挥手&lt;br style=&quot;font-size: 16px;&quot;&gt;断开连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fontSize=16;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="238.33999999999997" y="470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-13" value=".&lt;br style=&quot;font-size: 16px&quot;&gt;.&lt;br style=&quot;font-size: 16px&quot;&gt;.&lt;br style=&quot;font-size: 16px&quot;&gt;.&lt;br style=&quot;font-size: 16px&quot;&gt;.&lt;br style=&quot;font-size: 16px&quot;&gt;.&lt;br style=&quot;font-size: 16px&quot;&gt;.&lt;br style=&quot;font-size: 16px&quot;&gt;." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="276.67" y="250" width="40" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=16;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="414" y="250" width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-15" value="经过 60 秒，&lt;br style=&quot;font-size: 16px;&quot;&gt;客户端没有再发起新的请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="431" y="300" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="woIwUY9T-IzACjgxkabe-16" value="于是服务端主动断开连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fontSize=16;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="414" y="440" width="190" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

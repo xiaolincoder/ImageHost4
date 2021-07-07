@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T01:39:10.206Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.3" etag="K3DvxRXrObUXQTvYQURG" type="github"><diagram id="kxDlDBZaYGGUTX5-Y0yp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-07T01:50:48.385Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="NBRKf8FWD4VnJQJBYsua" version="14.8.3" type="github">
+  <diagram id="kxDlDBZaYGGUTX5-Y0yp" name="第 1 页">
+    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--1" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#36393d;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="40" as="sourcePoint" />
+            <mxPoint x="200" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--2" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#36393d;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="40" as="sourcePoint" />
+            <mxPoint x="400" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--17" value="TCP DATA" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="60" as="sourcePoint" />
+            <mxPoint x="390" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--18" value="TCP ACK" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="150" as="sourcePoint" />
+            <mxPoint x="210" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--19" value="长时间无数据交互" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--20" value="TCP Kepp Alive" style="endArrow=classic;html=1;fontSize=16;strokeWidth=2;strokeColor=#3399FF;fontColor=#0000FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="370" as="sourcePoint" />
+            <mxPoint x="390" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--21" value="TCP Keep Alive ACK" style="endArrow=classic;html=1;fontSize=16;endSize=7;strokeWidth=2;strokeColor=#00CC00;fontColor=#009900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="210" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--22" value="对保活报文的确认" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fontSize=16;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="414" y="450" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--23" value="收到对端的保活ACK后，&lt;br&gt;重置保活定时器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fontSize=16;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry y="510" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--24" value="保活定时器超时，&lt;br&gt;发送保活报文" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fontSize=16;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zbcBdM3e6VJ9Uij6Wlu--26" value="保活定时器时长" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fontSize=16;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

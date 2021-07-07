@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T01:13:28.562Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="B1CIzeF7dGG1pc9RDXHu" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T01:13:55.018Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="gNkXbCcBhikHq_qx2sjU" version="14.8.3" type="github">
   <diagram id="7zC7DqPAnJJEqUZzV4Uh" name="第 1 页">
     <mxGraphModel dx="1102" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,13 +16,13 @@
             <mxPoint x="400" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xVqBBZEcJogv-M7MtULi-4" value="请求" style="endArrow=classic;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" edge="1" parent="1">
+        <mxCell id="xVqBBZEcJogv-M7MtULi-4" value="请求" style="endArrow=classic;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="70" as="sourcePoint" />
             <mxPoint x="390" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xVqBBZEcJogv-M7MtULi-5" value="响应" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+        <mxCell id="xVqBBZEcJogv-M7MtULi-5" value="响应" style="endArrow=classic;html=1;fontSize=16;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="140" as="sourcePoint" />
             <mxPoint x="210" y="190" as="targetPoint" />

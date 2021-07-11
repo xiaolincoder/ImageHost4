@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-07-11T11:24:08.769Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.6.11" etag="pspu5JxUdx9gRyYCBa9l" type="github"><diagram id="F9ho5omJfm0_gi2ENWef">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-11T11:29:29.957Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="Rnk4OFF1OiLpEBcCpqjf" version="14.6.11" type="github">
+  <diagram id="F9ho5omJfm0_gi2ENWef" name="第 1 页">
+    <mxGraphModel dx="946" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-1" value="主机 IP 地址" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;dashed=1;" edge="1" parent="1" source="k-7KqQGt0QOUMTQJTOEK-2" target="k-7KqQGt0QOUMTQJTOEK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-2" value="&lt;span style=&quot;font-size: 16px&quot;&gt;主机在双向链表里的节点&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-4" value="key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="245" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-5" value="value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-6" value="哈希key-value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="210" y="340" width="350" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-9" value="主机 IP 地址" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="245" y="440" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-10" value="主机信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="355" y="440" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-11" value="key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-12" value="value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="425" y="480" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-15" value="preNode" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="245" y="370" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-16" value="nextNode" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="414" y="370" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k-7KqQGt0QOUMTQJTOEK-17" value="双向链表的节点内容" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="310" y="530" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

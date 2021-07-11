@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-11T12:07:35.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="e9Jx-x4_xetNTdtic0jD" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-11T12:09:51.260Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="Rf-gv1xPKcCLquN0D75F" version="14.6.11" type="github">
   <diagram id="pi1cCUhO7VG1k4C5hIC9" name="第 1 页">
     <mxGraphModel dx="946" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="560" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wkjq778UQ_b-5MghlP0O-9" value="根据主机IP地址做哈希运算后，&lt;br&gt;将心跳包分发到不同的工作线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="174" y="290" width="240" height="40" as="geometry" />
+          <mxGeometry x="180" y="290" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

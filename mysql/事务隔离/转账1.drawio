@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T13:47:43.759Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" version="14.9.4" etag="smXZJoZUnaGXBOWDvGYn" type="github"><diagram id="z0KPFBacOw3r0M6T9vL1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-04T13:55:25.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="3wvRXDBglQiGaAXQUZNG" version="14.9.4" type="github">
+  <diagram id="z0KPFBacOw3r0M6T9vL1" name="第 1 页">
+    <mxGraphModel dx="946" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TAIMm1EoAjCV-F4BacVT-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-50" width="360" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="TAIMm1EoAjCV-F4BacVT-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-50" width="360" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="TAIMm1EoAjCV-F4BacVT-1" value="&amp;nbsp; 1. 从数据库读取我的余额" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="90" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TAIMm1EoAjCV-F4BacVT-2" value="&amp;nbsp; 4. 从数据库读取你的余额&lt;br style=&quot;font-size: 16px&quot;&gt;&amp;nbsp; 5. 将你的余额&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;加上&lt;/font&gt;&lt;/b&gt;转账的金额&lt;br style=&quot;font-size: 16px&quot;&gt;&amp;nbsp; 6. 将你修改后的余额更新到数据库里" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="134" y="250" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TAIMm1EoAjCV-F4BacVT-4" value="&amp;nbsp; 1. 从数据库读取我的余额&lt;br style=&quot;font-size: 16px&quot;&gt;&amp;nbsp; 2. 将我的余额&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;减去&lt;/font&gt;&lt;/b&gt;转账的金额" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="134" y="-10" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TAIMm1EoAjCV-F4BacVT-5" value="&amp;nbsp; 4. 从数据库读取你的余额&lt;br style=&quot;font-size: 16px&quot;&gt;&amp;nbsp; 5. 将你的余额&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;加上&lt;/font&gt;&lt;/b&gt;转账的金额&lt;br style=&quot;font-size: 16px&quot;&gt;&amp;nbsp; 6. 将你修改后的余额更新到数据库里" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TAIMm1EoAjCV-F4BacVT-6" value="&amp;nbsp; 3. 将我修改后的余额更新到数据库里" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="134" y="190" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TAIMm1EoAjCV-F4BacVT-7" value="&amp;nbsp; 2. 将我的余额&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;减去&lt;/font&gt;&lt;/b&gt;转账的金额&lt;br style=&quot;font-size: 16px&quot;&gt;&amp;nbsp; 3. 将我修改后的余额更新到数据库里" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="350" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TAIMm1EoAjCV-F4BacVT-11" value="第一次转账" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="219" y="-50" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAIMm1EoAjCV-F4BacVT-12" value="第二次转账" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="585" y="-50" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

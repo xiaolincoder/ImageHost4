@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T13:18:57.142Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" version="14.9.4" etag="o6RVtRO0n1RIcxecbaWZ" type="github"><diagram id="N3OpVKx8d9eP4TuhIVd1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-04T13:30:47.171Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="cNWG2W_mLCARxgor3ilG" version="14.9.4" type="github">
+  <diagram id="N3OpVKx8d9eP4TuhIVd1" name="第 1 页">
+    <mxGraphModel dx="946" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R8__aFnJrc_CYu6mQRF9-1" value="1. 从数据库读取我的余额&lt;br style=&quot;font-size: 16px&quot;&gt;2. 将我的余额&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;减去&lt;/font&gt;&lt;/b&gt;转账的金额&lt;br style=&quot;font-size: 16px&quot;&gt;3. 将我修改后的余额更新到数据库里" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R8__aFnJrc_CYu6mQRF9-2" value="1. 从数据库读取你的余额&lt;br style=&quot;font-size: 16px&quot;&gt;2. 将你的余额&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;加上&lt;/font&gt;&lt;/b&gt;转账的金额&lt;br style=&quot;font-size: 16px&quot;&gt;3. 将你修改后的余额更新到数据库里" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="280" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

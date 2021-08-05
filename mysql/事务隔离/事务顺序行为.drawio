@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-05T01:07:45.587Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="_QgFUnPlcUSdmH9Rtri5" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-05T01:08:02.026Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="y7-ylmc7hTJwMIkM3LYB" version="14.8.4" type="github">
   <diagram id="xyRoyOddgOh69G65EYYx" name="第 1 页">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,10 +25,10 @@
         <mxCell id="67hW3ACkMN75okHCIbZx-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="130" y="240" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="67hW3ACkMN75okHCIbZx-10" value="将余额 100 万&lt;br&gt;改成 200 万" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="67hW3ACkMN75okHCIbZx-10" value="将余额 100 万&lt;br&gt;改成 200 万" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="280" y="240" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="67hW3ACkMN75okHCIbZx-11" value="&lt;span&gt;查得得到余额 V1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="67hW3ACkMN75okHCIbZx-11" value="&lt;span&gt;查得得到余额 V1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="130" y="280" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="67hW3ACkMN75okHCIbZx-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -40,7 +40,7 @@
         <mxCell id="67hW3ACkMN75okHCIbZx-14" value="&lt;span&gt;提交事务 B&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="280" y="320" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="67hW3ACkMN75okHCIbZx-15" value="&lt;span&gt;查得得到余额 V2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="67hW3ACkMN75okHCIbZx-15" value="&lt;span&gt;查得得到余额 V2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="130" y="360" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="67hW3ACkMN75okHCIbZx-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -52,7 +52,7 @@
         <mxCell id="67hW3ACkMN75okHCIbZx-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="280" y="400" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="67hW3ACkMN75okHCIbZx-19" value="查得得到余额 V3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="67hW3ACkMN75okHCIbZx-19" value="查得得到余额 V3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="130" y="440" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="67hW3ACkMN75okHCIbZx-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">

@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-08-08T07:14:43.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" version="14.9.5" etag="eci4MOhCNz17D5ItjSpR" type="github"><diagram id="sV5MQTqEMMXxN51rNGOI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-08T07:21:12.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="99XVFOuWVNMJppV-BhD2" version="14.9.5" type="github">
+  <diagram id="sV5MQTqEMMXxN51rNGOI" name="第 1 页">
+    <mxGraphModel dx="946" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-1" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 16px; text-align: left;&quot;&gt;creator_trx_&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 16px; text-align: left;&quot;&gt;id&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 16px; text-align: left;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-2" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 16px; text-align: left;&quot;&gt;m_&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 16px; text-align: left;&quot;&gt;id&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 16px; text-align: left;&quot;&gt;s&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-3" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 16px; text-align: left;&quot;&gt;min_trx_&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 16px; text-align: left;&quot;&gt;id&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-4" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 16px; text-align: left;&quot;&gt;max_trx_&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 16px; text-align: left;&quot;&gt;id&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="_vTZx45VKvPwmiZrtXwD-5" target="_vTZx45VKvPwmiZrtXwD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-5" value="&lt;strong style=&quot;box-sizing: border-box; font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;创建该 Read  View 的&lt;br&gt;事务的事务 id&lt;/span&gt;&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="105" y="280" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="_vTZx45VKvPwmiZrtXwD-6" target="_vTZx45VKvPwmiZrtXwD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-6" value="&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box; font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 14px; text-align: left;&quot;&gt;创建视图时当前数据库中&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;md-pair-s&quot; style=&quot;box-sizing: border-box; font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;活跃且未提交的事务的事务 id 列表&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fontSize=16;fontStyle=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="_vTZx45VKvPwmiZrtXwD-7" target="_vTZx45VKvPwmiZrtXwD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-7" value="&lt;span class=&quot;md-plain md-expand&quot; style=&quot;box-sizing: border-box; font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 14px; text-align: left;&quot;&gt;创建 Read  View 时当前数据库中&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;md-pair-s &quot; style=&quot;box-sizing: border-box; font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;活跃且未提交的事务中最小事务的事务 id&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fontSize=16;fontStyle=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="285" y="280" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="_vTZx45VKvPwmiZrtXwD-10" target="_vTZx45VKvPwmiZrtXwD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vTZx45VKvPwmiZrtXwD-10" value="&lt;strong style=&quot;box-sizing: border-box; font-family: &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;创建 Read  View 时当前数据库中应该&lt;br&gt;给下一个事务的 id 值&lt;/span&gt;&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fontSize=16;fontStyle=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="414" y="60" width="250" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

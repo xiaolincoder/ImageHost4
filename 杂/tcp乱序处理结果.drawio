@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-04T09:46:14.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="q5LCmBu8Nl2o_bdoP8RH" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-04T09:46:29.040Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="seJ2at2Z38dAGApNzmhF" version="15.0.6" type="github">
   <diagram id="ANAUuJqYN83Xgmc9TEa5" name="第 1 页">
     <mxGraphModel dx="946" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="-hhRETg1GXGdjl2k0zsn-3" value="FIN_WAIT_2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="120" y="320" width="120" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="-hhRETg1GXGdjl2k0zsn-24" value="&lt;font color=&quot;#97d077&quot; style=&quot;font-size: 16px;&quot;&gt;ACK&lt;br style=&quot;font-size: 16px;&quot;&gt;seq = x + 1&lt;br style=&quot;font-size: 16px;&quot;&gt;ack = y + 102&amp;nbsp;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=16;" edge="1" parent="1">
+        <mxCell id="-hhRETg1GXGdjl2k0zsn-24" value="&lt;font color=&quot;#97d077&quot; style=&quot;font-size: 16px;&quot;&gt;ACK&lt;br style=&quot;font-size: 16px;&quot;&gt;seq = x + 1&lt;br style=&quot;font-size: 16px;&quot;&gt;ack = y + 102&amp;nbsp;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="-hhRETg1GXGdjl2k0zsn-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="520" as="sourcePoint" />
             <mxPoint x="480" y="660" as="targetPoint" />
@@ -85,8 +85,8 @@
         </mxCell>
         <mxCell id="-hhRETg1GXGdjl2k0zsn-22" value="&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;DATA&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;seq=y+100&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;ack=y+101&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="470" as="sourcePoint" />
-            <mxPoint x="240" y="520" as="targetPoint" />
+            <mxPoint x="360" y="460" as="sourcePoint" />
+            <mxPoint x="240" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

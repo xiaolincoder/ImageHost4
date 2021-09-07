@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T15:21:00.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="2F38Cd8KH9TECCeMUKOc" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T15:28:14.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="Q3-5appcfG1QQWkvVRc0" version="15.1.1" type="github">
   <diagram id="1cyGL1-SoetZ65E8BmGN" name="第 1 页">
     <mxGraphModel dx="946" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,8 @@
         <mxCell id="WnBwhY86uZ5r6w-xDaLr-18" value="读取缓存&lt;br&gt;值为 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="414" y="480" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WnBwhY86uZ5r6w-xDaLr-19" value="读取缓存&lt;br&gt;值为 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="407.46" y="350" width="80" height="40" as="geometry" />
+        <mxCell id="WnBwhY86uZ5r6w-xDaLr-19" value="读取缓存&lt;br&gt;值为 2（旧值）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="399.15" y="350" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

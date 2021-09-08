@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T04:53:23.675Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Flpzs7_XBLLZ8dYHA9Je" version="15.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T05:04:31.328Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="iTCUpQPBfPh7xiyN2oTx" version="15.0.4" type="github">
   <diagram id="8G1xJhk3juWvFJzGZoab" name="第 1 页">
-    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="810" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,8 +55,8 @@
             <mxPoint x="500" y="830.36" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fYJdt4onO25BBd_EPBhb-30" value="更新数据库为 20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;fontSize=16;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="510.00492957746474" y="819.9990909090909" width="130" height="20" as="geometry" />
+        <mxCell id="fYJdt4onO25BBd_EPBhb-30" value="读取数据库的&lt;br&gt;值为 20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;fontSize=16;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510.00492957746474" y="799.9990909090909" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fYJdt4onO25BBd_EPBhb-31" value="" style="endArrow=classic;html=1;fontSize=16;strokeWidth=2;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry x="39.28999999999999" y="652" width="50" height="50" as="geometry">
@@ -82,7 +82,7 @@
             <mxPoint x="371.8299999999999" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fYJdt4onO25BBd_EPBhb-36" value="缓存更新为 20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="fYJdt4onO25BBd_EPBhb-36" value="将 20 回写缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="374.0019718309859" y="950.0036363636364" width="120" height="20" as="geometry" />
         </mxCell>
       </root>

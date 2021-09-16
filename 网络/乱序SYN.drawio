@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T06:54:44.860Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="xRRBf60ONccw6GLUwPoR" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T06:54:54.721Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="zcvE1YGGkFOSwq3y5IZu" version="15.2.7" type="github">
   <diagram id="sbSMQu0Okb7oclwbnNOQ" name="第 1 页">
     <mxGraphModel dx="1929" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
         <mxCell id="eTkC9JrbYTs_JuqlhFEO-25" value="客户端宕机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B20000;fillColor=#e51400;fontSize=16;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="eTkC9JrbYTs_JuqlhFEO-26" value="客户端恢复后，&lt;br&gt;发送相同四元祖的 SYN 包" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="eTkC9JrbYTs_JuqlhFEO-26" value="客户端恢复后，&lt;br&gt;发送相同四元组的 SYN 包" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-50" y="300" width="200" height="40" as="geometry" />
         </mxCell>
       </root>

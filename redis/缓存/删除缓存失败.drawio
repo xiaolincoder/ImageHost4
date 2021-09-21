@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T06:41:15.229Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="7SnucOTUGrAJ9aykHp0E" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T06:41:38.232Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="yYmu3EP1SxG4RS7vpS-d" version="15.2.9" type="github">
   <diagram id="mfwRfO4l2Dg7BKEX1FC2" name="第 1 页">
     <mxGraphModel dx="946" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
             <mxPoint x="480" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1I_QjA0BRj6-pN0AAxI-11" value="3. 删除缓存失败" style="endArrow=classic;html=1;fontSize=16;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="c1I_QjA0BRj6-pN0AAxI-11" value="3. 删除缓存失败" style="endArrow=classic;html=1;fontSize=16;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontColor=#FF3333;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="360" as="sourcePoint" />
             <mxPoint x="740" y="360" as="targetPoint" />
@@ -64,7 +64,7 @@
             <mxPoint x="480" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1I_QjA0BRj6-pN0AAxI-13" value="4. 再次删除缓存值，成功" style="endArrow=classic;html=1;fontSize=16;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="c1I_QjA0BRj6-pN0AAxI-13" value="4. 再次删除缓存值，成功" style="endArrow=classic;html=1;fontSize=16;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontColor=#009900;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="480" as="sourcePoint" />
             <mxPoint x="740" y="480" as="targetPoint" />

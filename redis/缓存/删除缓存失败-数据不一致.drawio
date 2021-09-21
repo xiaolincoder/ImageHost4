@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T06:46:33.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="Gv_8GmnvNTksF0eX-iay" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T06:47:40.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="5ujNaQcBByF3WJLfzH4y" version="15.2.9" type="github">
   <diagram id="uV9l9ql2fi1yXAJxWlHf" name="第 1 页">
     <mxGraphModel dx="946" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,14 +43,20 @@
             <mxPoint x="470" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-14" value="数据 x 值更新为 2（新值）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=16;gradientColor=#ffd966;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="230" width="210" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="Hu-qGPqD2kHAJkaIt2m7-16" value="3. 缓存命中，&lt;br&gt;读取到旧值" style="endArrow=classic;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=16;fontColor=#CC6600;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="390" as="sourcePoint" />
             <mxPoint x="470" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-17" value="数据 x 值更新为 2（新值）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=16;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="740" y="230" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-19" value="数据 x 的缓存值为 1（旧值）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=16;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-20" value="数据 x 的缓存值为 1（旧值）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=16;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

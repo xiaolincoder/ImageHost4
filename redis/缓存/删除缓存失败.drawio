@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T06:40:49.328Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="qWrpy3HWsOspTYsyN_b5" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T06:41:01.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="0zXKicB6VhYWsqkKb1dx" version="15.2.9" type="github">
   <diagram id="mfwRfO4l2Dg7BKEX1FC2" name="第 1 页">
     <mxGraphModel dx="946" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,10 +70,10 @@
             <mxPoint x="740" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1I_QjA0BRj6-pN0AAxI-14" value="数据 x 值更新为 2（新值）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="c1I_QjA0BRj6-pN0AAxI-14" value="数据 x 值更新为 2（新值）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=16;gradientColor=#ffd966;" vertex="1" parent="1">
           <mxGeometry x="1000" y="230" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="c1I_QjA0BRj6-pN0AAxI-15" value="数据 x 的缓存值为 1（旧值）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="c1I_QjA0BRj6-pN0AAxI-15" value="数据 x 的缓存值为 1（旧值）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=16;gradientColor=#ffd966;" vertex="1" parent="1">
           <mxGeometry x="750" y="350" width="220" height="20" as="geometry" />
         </mxCell>
       </root>

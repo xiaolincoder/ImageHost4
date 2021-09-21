@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T06:43:54.750Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" version="15.2.9" etag="oO9MlcYfDccBTXggiTD2" type="github"><diagram id="uV9l9ql2fi1yXAJxWlHf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-21T06:46:33.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="Gv_8GmnvNTksF0eX-iay" version="15.2.9" type="github">
+  <diagram id="uV9l9ql2fi1yXAJxWlHf" name="第 1 页">
+    <mxGraphModel dx="946" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-1" value="应用" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-3" value="缓存" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="414" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-4" value="数据库" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="674" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-5" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hu-qGPqD2kHAJkaIt2m7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="270" as="sourcePoint" />
+            <mxPoint x="220" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-7" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473.5" y="180" as="sourcePoint" />
+            <mxPoint x="474" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-8" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="733.5" y="180" as="sourcePoint" />
+            <mxPoint x="734" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-9" value="1. 更新数据库" style="endArrow=classic;html=1;fontSize=16;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontColor=#3333FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="240" as="sourcePoint" />
+            <mxPoint x="730" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-11" value="2. 删除缓存失败" style="endArrow=classic;html=1;fontSize=16;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="310" as="sourcePoint" />
+            <mxPoint x="470" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-14" value="数据 x 值更新为 2（新值）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=16;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="230" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hu-qGPqD2kHAJkaIt2m7-16" value="3. 缓存命中，&lt;br&gt;读取到旧值" style="endArrow=classic;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=16;fontColor=#CC6600;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="390" as="sourcePoint" />
+            <mxPoint x="470" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

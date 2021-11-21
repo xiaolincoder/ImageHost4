@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2021-11-21T09:39:39.843Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" version="15.8.3" etag="9yu0-tQs_rN1I-f3_VOQ" type="github"><diagram id="WuZ8_OOCTdjACCoI05ke">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-21T09:42:19.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="H_hQp6kKcfdbjsiXbF06" version="15.8.3" type="github">
+  <diagram id="WuZ8_OOCTdjACCoI05ke" name="Page-1">
+    <mxGraphModel dx="1773" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qjziplt6dxEa7r78YyaK-1" value="2022届拼多多薪资&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="160" width="511.67" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-2" value="offer 等级" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-3" value="月薪" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-4" value="签字费" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="283.33" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-5" value="白菜" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="268" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-6" value="25-27k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="268" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-7" value="3w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="283.33" y="268" width="101.66666666666667" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-8" value="sp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="322" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-9" value="30-32k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="322" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-10" value="ssp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="376" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-11" value="34k*37" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="376" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-12" value="岗位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-13" value="开发岗" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="268" width="101.67" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-14" value="白菜" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-15" value="sp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="484" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-16" value="ssp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="538" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-17" value="32-34k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="430" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-18" value="36k-37*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="484" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-19" value="40k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="538" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-20" value="年总包" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="385" y="214" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-21" value="3w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="283.33" y="430" width="101.66666666666667" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-22" value="算法岗" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="430" width="101.67" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-23" value="约48w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="385" y="268" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-24" value="约57w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="385" y="322" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-25" value="约65w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="385" y="376" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-26" value="约61w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="385" y="430" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-27" value="约68w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="385" y="484" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qjziplt6dxEa7r78YyaK-28" value="约75w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="385" y="538" width="105" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

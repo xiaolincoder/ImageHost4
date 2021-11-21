@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2021-11-21T09:04:53.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" version="15.8.3" etag="EZWBduSEvL5BMB9MO_r1" type="github"><diagram id="jli-6Ra-XTsmB1hJ5Jtt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-21T09:08:15.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="hXPEf7SeWEtc6do6Hc7s" version="15.8.3" type="github">
+  <diagram id="jli-6Ra-XTsmB1hJ5Jtt" name="Page-1">
+    <mxGraphModel dx="1773" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-1" value="2022届字节跳动薪资&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="160" width="611.67" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-2" value="offer 等级" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-3" value="月薪" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-4" value="房补" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="283.33333333333337" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-5" value="签字费" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="385" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-6" value="白菜" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="268" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-7" value="22-24k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="268" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-8" value="1.5*12" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="283.33333333333337" y="268" width="101.66666666666667" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-9" value="2-8w不等" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="385" y="268" width="101.66666666666667" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-10" value="sp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="322" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-11" value="26-28k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="322" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-12" value="ssp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="376" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-13" value="30-33k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="376" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-14" value="岗位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-15" value="开发岗" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="268" width="101.67" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-16" value="白菜" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-17" value="sp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="484" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-18" value="ssp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="538" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-19" value="26-29k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="430" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-20" value="30-32k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="484" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-21" value="35k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="538" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-22" value="1.5*12" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="283.33333333333337" y="430" width="101.66666666666667" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-23" value="杭州人才补贴" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="486.67" y="214" width="103.33" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-24" value="根据学历不同 1-10w不等" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="486.67" y="268" width="103.33" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-25" value="2-8w不等" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="385" y="430" width="101.66666666666667" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-26" value="根据学历不同 1-10w不等" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="486.67" y="430" width="103.33" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtJRbdQB7jvhEm8nQDq-27" value="算法岗" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="430" width="101.67" height="162" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-11-21T09:30:04.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" version="15.8.3" etag="QroBtmpFKRz2sig6tH4f" type="github"><diagram id="br0uY_5-ztXxavm1zrH5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-21T09:37:00.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="3O1GvVDSpjBmNk14ApOd" version="15.8.3" type="github">
+  <diagram id="br0uY_5-ztXxavm1zrH5" name="Page-1">
+    <mxGraphModel dx="1773" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-1" value="2022届京东薪资&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="160" width="411.67" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-2" value="offer 等级" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-3" value="月薪" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-5" value="白菜" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="268" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-6" value="19.5-23k*15" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="268" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-8" value="sp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="322" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-9" value="25-26.5k*15" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="322" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-10" value="ssp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="376" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-11" value="29k*15" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="376" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-12" value="岗位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="214" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-13" value="开发岗" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="268" width="101.67" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-14" value="白菜" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-15" value="sp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="484" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-16" value="ssp" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="538" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-17" value="27.5k*15" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="430" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-18" value="31-33.5k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="484" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-19" value="36.5k*16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.66666666666669" y="538" width="101.66666666666667" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-20" value="年总包" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="283.33" y="214" width="106.67" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-22" value="算法岗" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-21.67" y="430" width="101.67" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-23" value="约30w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="283.33" y="268" width="106.67" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-24" value="约37w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="283.33" y="322" width="106.67" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="283.33" y="376" width="106.67" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-25" value="约43w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wV9BgpkwmA9uFEekeB6f-30">
+          <mxGeometry width="106.67" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-26" value="约41w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wV9BgpkwmA9uFEekeB6f-30">
+          <mxGeometry y="54" width="106.67" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-27" value="约46w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wV9BgpkwmA9uFEekeB6f-30">
+          <mxGeometry y="108" width="106.67" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wV9BgpkwmA9uFEekeB6f-28" value="约55w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wV9BgpkwmA9uFEekeB6f-30">
+          <mxGeometry y="162" width="106.67" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

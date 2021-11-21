@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-11-21T10:14:01.006Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="SAYhiXcjM-O5CFxwD3lR" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-21T10:15:39.426Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="g_REBaZhLyMvt_Sm5KQ5" version="15.8.3" type="github">
   <diagram id="o1lI7uaFn6-g1FVOMqIx" name="Page-1">
     <mxGraphModel dx="1773" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LmUMngHWBcQyNiguUtHR-1" value="2022届快手薪资&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-21.67" y="160" width="721.67" height="54" as="geometry" />
+          <mxGeometry x="-21.67" y="160" width="511.67" height="54" as="geometry" />
         </mxCell>
         <mxCell id="LmUMngHWBcQyNiguUtHR-2" value="offer 等级" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="80" y="214" width="101.66666666666667" height="54" as="geometry" />
@@ -20,13 +20,7 @@
           <mxGeometry x="-21.67" y="214" width="101.66666666666667" height="54" as="geometry" />
         </mxCell>
         <mxCell id="LmUMngHWBcQyNiguUtHR-20" value="年总包" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="595" y="214" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-32" value="签字费" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="385" y="214" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-39" value="股票" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="490" y="214" width="105" height="54" as="geometry" />
         </mxCell>
         <mxCell id="LmUMngHWBcQyNiguUtHR-46" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-21.67" y="268" width="721.67" height="372" as="geometry" />
@@ -80,58 +74,22 @@
           <mxGeometry y="186" width="101.67000000000002" height="186" as="geometry" />
         </mxCell>
         <mxCell id="LmUMngHWBcQyNiguUtHR-23" value="约36w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="616.6700000000001" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-24" value="约45w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="616.6700000000001" y="62" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-25" value="约54w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="616.6700000000001" y="124" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-26" value="约43w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="616.6700000000001" y="186" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-27" value="约54w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="616.6700000000001" y="248" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-28" value="约59w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="616.6700000000001" y="310" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-33" value="无" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
           <mxGeometry x="406.6700000000001" width="105.00000000000001" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-34" value="4w&lt;br&gt;（有无，因人而异）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
+        <mxCell id="LmUMngHWBcQyNiguUtHR-24" value="约45w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
           <mxGeometry x="406.6700000000001" y="62" width="105.00000000000001" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-35" value="4w&lt;br&gt;（有无，因人而异）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
+        <mxCell id="LmUMngHWBcQyNiguUtHR-25" value="约54w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
           <mxGeometry x="406.6700000000001" y="124" width="105.00000000000001" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-36" value="无" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
+        <mxCell id="LmUMngHWBcQyNiguUtHR-26" value="约43w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
           <mxGeometry x="406.6700000000001" y="186" width="105.00000000000001" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-37" value="4w&lt;br&gt;（有无，因人而异）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
+        <mxCell id="LmUMngHWBcQyNiguUtHR-27" value="约54w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
           <mxGeometry x="406.6700000000001" y="248" width="105.00000000000001" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-38" value="4w&lt;br&gt;（有无，因人而异）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
+        <mxCell id="LmUMngHWBcQyNiguUtHR-28" value="约59w" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
           <mxGeometry x="406.6700000000001" y="310" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-40" value="无" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="511.67" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-41" value="12w/4年&lt;br&gt;（有无，因人而异）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="511.67" y="62" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-42" value="12w/4年&lt;br&gt;（有无，因人而异）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="511.67" y="124" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-43" value="无" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="511.67" y="186" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-44" value="12w/4年&lt;br&gt;（有无，因人而异）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="511.67" y="248" width="105.00000000000001" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="LmUMngHWBcQyNiguUtHR-45" value="12w/4年&lt;br&gt;（有无，因人而异）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="LmUMngHWBcQyNiguUtHR-46">
-          <mxGeometry x="511.67" y="310" width="105.00000000000001" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

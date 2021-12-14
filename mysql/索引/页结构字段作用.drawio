@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T04:53:51.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" version="15.9.4" etag="Uxy7GAoFLp__Tln-_-xT" type="github"><diagram id="7_oeE3uuEPV6P8_oTMFc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-14T05:02:59.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="pYlTkm91I4lf95DHLQmf" version="15.9.4" type="github">
+  <diagram id="7_oeE3uuEPV6P8_oTMFc" name="Page-1">
+    <mxGraphModel dx="930" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-1" value="名称" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="202.66666666666666" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-3" value="说明" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282.66666666666663" y="200" width="437.3333333333333" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-4" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;文件头&lt;br&gt;File Header&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="202.66666666666666" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-5" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;页头&lt;br&gt;Page Header&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="202.66666666666666" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-6" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;最小和最大记录&lt;br&gt;Infimum+supremum&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="202.66666666666666" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-8" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;用户记录&lt;br&gt;User Records&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="202.66666666666666" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-9" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;空闲空间&lt;br&gt;Free Space&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="202.66666666666666" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-10" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;页目录&lt;br&gt;Page Directory&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="202.66666666666666" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-11" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;文件尾&lt;br&gt;File Tailer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="202.66666666666666" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-12" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;文件头，表示页的信息&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="282.66666666666663" y="250" width="437.3333333333333" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-13" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;页头，表示页的状态信息&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="282.66666666666663" y="300" width="437.3333333333333" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-14" value="&lt;font color=&quot;#333333&quot; face=&quot;pingfang sc, avenir, tahoma, arial, lantinghei sc, microsoft yahei, hiragino sans gb, microsoft sans serif, wenquanyi micro hei, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;两个虚拟的伪记录，分别表示页中的最小记录和最大记录&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="282.66666666666663" y="350" width="437.3333333333333" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-15" value="&lt;font color=&quot;#333333&quot; face=&quot;pingfang sc, avenir, tahoma, arial, lantinghei sc, microsoft yahei, hiragino sans gb, microsoft sans serif, wenquanyi micro hei, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;存储行记录内容&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="282.66666666666663" y="400" width="437.3333333333333" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-16" value="&lt;font color=&quot;#333333&quot; face=&quot;pingfang sc, avenir, tahoma, arial, lantinghei sc, microsoft yahei, hiragino sans gb, microsoft sans serif, wenquanyi micro hei, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;页中还没被使用的空间&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="282.66666666666663" y="450" width="437.3333333333333" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-17" value="&lt;font color=&quot;#333333&quot; face=&quot;pingfang sc, avenir, tahoma, arial, lantinghei sc, microsoft yahei, hiragino sans gb, microsoft sans serif, wenquanyi micro hei, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;存储用户记录的相对位置，对记录起到索引作用&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="282.66666666666663" y="500" width="437.3333333333333" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W1QtgMD7xeGO3qCwORvg-18" value="&lt;font color=&quot;#333333&quot; face=&quot;pingfang sc, avenir, tahoma, arial, lantinghei sc, microsoft yahei, hiragino sans gb, microsoft sans serif, wenquanyi micro hei, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;校验页是否完整&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="282.66666666666663" y="550" width="437.3333333333333" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

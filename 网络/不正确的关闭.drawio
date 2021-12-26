@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-26T11:40:59.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="SMoj-ZrAPFU-DlFHvdTT" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-26T11:41:36.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Iqc1SdcpocITKGhTAQ03" version="16.1.0" type="github">
   <diagram id="WaHfDH1Nx6i7GQKPyZjy" name="Page-1">
     <mxGraphModel dx="946" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,10 +57,7 @@
           <mxGeometry x="540" y="850" width="102" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Pf2hlAxHjkDawbTUkIR2-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="330" y="845" width="30" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Pf2hlAxHjkDawbTUkIR2-27" value="TIME-WAIT &lt;br&gt;时间过短或没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="200" y="865" width="130" height="40" as="geometry" />
+          <mxGeometry x="330" y="845" width="30" height="235" as="geometry" />
         </mxCell>
         <mxCell id="Pf2hlAxHjkDawbTUkIR2-47" value="丢失" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="660" y="867.5" width="50" height="20" as="geometry" />
@@ -91,6 +88,9 @@
         </mxCell>
         <mxCell id="Pf2hlAxHjkDawbTUkIR2-60" value="CLOSE" style="html=1;whiteSpace=wrap;comic=1;strokeWidth=2;fontFamily=Comic Sans MS;fontStyle=1;fontSize=16;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="750" y="1080" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf2hlAxHjkDawbTUkIR2-61" value="2MSL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="952.5" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

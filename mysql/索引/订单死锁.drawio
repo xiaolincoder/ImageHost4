@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:51:01.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.1.0" etag="4YlpGSOUvvxVAcz67OBY" type="github"><diagram id="gaGSIBY6s1BOLtu0j2V1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-28T08:58:36.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="okw-WqoJxY60zlQ8R5PU" version="16.1.0" type="github">
+  <diagram id="gaGSIBY6s1BOLtu0j2V1" name="Page-1">
+    <mxGraphModel dx="1406" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gQvGCsNvIvTkal2rFg75-4" value="//检查 1007 订单是否存在&lt;br style=&quot;font-size: 16px;&quot;&gt;select id from t_order where order_no = 1007 for update;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="278.42105263157896" width="490.0000000000001" height="59.21052631578948" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-1" value="事务 A" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="490.0000000000001" height="59.21052631578948" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-2" value="事务 B" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="570.0000000000001" y="160" width="490.0000000000001" height="59.21052631578948" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-3" value="begin;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="219.21052631578948" width="490.0000000000001" height="59.21052631578948" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-5" value="begin;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="570.0000000000001" y="219.21052631578948" width="490.0000000000001" height="59.21052631578948" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-8" value="//检查 1008 订单是否存在&lt;br style=&quot;font-size: 16px;&quot;&gt;select id from t_order where order_no = 1008 for update;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="570.0000000000001" y="337.63157894736844" width="490.0000000000001" height="59.21052631578948" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="570.0000000000001" y="278.42105263157896" width="490.0000000000001" height="59.21052631578948" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="337.63157894736844" width="490.0000000000001" height="59.21052631578948" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-11" value="//如果没有，则插入订单记录&lt;br style=&quot;font-size: 16px;&quot;&gt;insert into t_order (order_no, create_date) values (1007, now());&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;阻塞等待...." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="396.8421052631579" width="490.0000000000001" height="106.57894736842107" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="570.0000000000001" y="396.8421052631579" width="490.0000000000001" height="106.57894736842107" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-13" value="//如果没有，则插入订单记录&lt;br style=&quot;font-size: 16px;&quot;&gt;insert into t_order (order_no, create_date) values (1008, now());&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;阻塞等待...." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="570.0000000000001" y="503.42105263157896" width="490.0000000000001" height="106.57894736842107" as="geometry" />
+        </mxCell>
+        <mxCell id="gQvGCsNvIvTkal2rFg75-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="503.42105263157896" width="490.0000000000001" height="106.57894736842107" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

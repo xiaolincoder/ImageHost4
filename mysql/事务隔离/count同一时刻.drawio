@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T13:14:50.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.2.1" etag="iChdLobxUJGCQaUSy1pf" type="github"><diagram id="uIvpdnEG8zD1QNK0IYQ8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-05T13:17:49.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="rzaXbDLwl76JrdacYi5_" version="16.2.1" type="github">
+  <diagram id="uIvpdnEG8zD1QNK0IYQ8" name="Page-1">
+    <mxGraphModel dx="923" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yZSuAVlTBr9dWqMXNHMS-1" value="会话A" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="215.00000000000003" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yZSuAVlTBr9dWqMXNHMS-2" value="会话B" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="375" y="160" width="215.00000000000003" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yZSuAVlTBr9dWqMXNHMS-3" value="begin;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="212" width="215.00000000000003" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yZSuAVlTBr9dWqMXNHMS-5" value="select * from t_order&lt;br style=&quot;font-size: 16px;&quot;&gt;（返回100）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="264" width="215.00000000000003" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yZSuAVlTBr9dWqMXNHMS-6" value="insert into t_order（插入一条记录）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="375" y="316" width="215.00000000000003" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yZSuAVlTBr9dWqMXNHMS-7" value="select * from t_order&lt;br style=&quot;font-size: 16px;&quot;&gt;（返回100）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="368" width="215.00000000000003" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yZSuAVlTBr9dWqMXNHMS-8" value="select * from t_order&lt;br style=&quot;font-size: 16px;&quot;&gt;（返回101）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="375" y="368" width="215.00000000000003" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yZSuAVlTBr9dWqMXNHMS-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="375" y="264" width="215.00000000000003" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yZSuAVlTBr9dWqMXNHMS-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="375" y="212" width="215.00000000000003" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yZSuAVlTBr9dWqMXNHMS-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="316" width="215.00000000000003" height="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

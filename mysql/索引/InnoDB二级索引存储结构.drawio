@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T09:22:14.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="ephPOWRJwIoolGClg9Q-" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-22T09:22:27.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="HFsBo_PvpX0lzHHCoJS8" version="16.4.5" type="github">
   <diagram id="aoEWkl7r9SBsmZUvx6Md" name="Page-1">
     <mxGraphModel dx="1773" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
         <mxCell id="eVQ8WBOrIPoRBrhiU6TB-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="eVQ8WBOrIPoRBrhiU6TB-34" target="eVQ8WBOrIPoRBrhiU6TB-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eVQ8WBOrIPoRBrhiU6TB-37" value="主键索引" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=20;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="eVQ8WBOrIPoRBrhiU6TB-37" value="二级索引" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="442.00333333333333" y="-175" width="100" height="30" as="geometry" />
         </mxCell>
       </root>

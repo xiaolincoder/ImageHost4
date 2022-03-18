@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T14:05:39.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" version="17.1.3" etag="wF3m612W-1cgIakbnBOt" type="github"><diagram id="UBCMmzzyJxCG5NBkDQrW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-18T14:07:19.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="dQjIUqOKS4WgGtSmxv3u" version="17.1.3" type="github">
+  <diagram id="UBCMmzzyJxCG5NBkDQrW" name="Page-1">
+    <mxGraphModel dx="732" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WowMR0IQ3SSCzQduIoS1-1" value="用户使用的内存块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WowMR0IQ3SSCzQduIoS1-2" value="内存块的头信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WowMR0IQ3SSCzQduIoS1-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="WowMR0IQ3SSCzQduIoS1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="240" as="sourcePoint" />
+            <mxPoint x="300" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WowMR0IQ3SSCzQduIoS1-4" value="malloc 返回的地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WowMR0IQ3SSCzQduIoS1-5" value="0x10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T06:09:14.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" version="17.2.1" etag="GkR-wSfdicDQ3J7kc1Mx" type="github"><diagram id="O1Z9wu2t01PMdc_qksQj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-25T06:15:03.922Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="G0_4RuB5FdyUiaJRDYnC" version="17.2.1" type="github">
+  <diagram id="O1Z9wu2t01PMdc_qksQj" name="Page-1">
+    <mxGraphModel dx="1185" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VySy3qtxfubAn8ajpMbU-1" value="Buffer Pool" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="540" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VySy3qtxfubAn8ajpMbU-2" value="数据页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VySy3qtxfubAn8ajpMbU-3" value="索引页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VySy3qtxfubAn8ajpMbU-4" value="插入缓存页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VySy3qtxfubAn8ajpMbU-5" value="undo 页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VySy3qtxfubAn8ajpMbU-6" value="&lt;font face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;自适应哈希索引&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VySy3qtxfubAn8ajpMbU-7" value="&lt;font face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;锁信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

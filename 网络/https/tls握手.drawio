@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T10:07:52.800Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="9SrF2cGdzfDMwowpcb__" version="17.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T10:15:05.266Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="VGRbPqI58wrz1ExgAOqG" version="17.2.3" type="github">
   <diagram id="x2PmlvAJv_ifcK5xUWja" name="第 1 页">
     <mxGraphModel dx="929" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="100" y="535" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-5DfbcvIHxEYxNOzWpbB-2" value="&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px&quot; class=&quot;newpage&quot;&gt;ServerHelloDone&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=0;comic=1;fontFamily=Courier New;labelBackgroundColor=none;fillColor=#cdeb8b;fontSize=16;align=left;fontStyle=1;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="470" y="850" width="300" height="60" as="geometry" />
+          <mxGeometry x="470" y="740" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-5DfbcvIHxEYxNOzWpbB-5" value="&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; font-size: 16px&quot; class=&quot;newpage&quot;&gt;&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px&quot; class=&quot;newpage&quot;&gt;Application Data &lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=0;comic=1;fontFamily=Courier New;labelBackgroundColor=none;fillColor=#ffcc99;fontSize=16;strokeColor=#36393d;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="107" y="1200" width="200" height="70" as="geometry" />
@@ -36,9 +36,6 @@
         </mxCell>
         <mxCell id="-5DfbcvIHxEYxNOzWpbB-7" value="&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; font-size: 16px&quot; class=&quot;newpage&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;ServerHello&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; font-size: 16px&quot; class=&quot;newpage&quot;&gt;&amp;nbsp; - TLS Version&lt;/div&gt;&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; font-size: 16px&quot; class=&quot;newpage&quot;&gt;&amp;nbsp; - Server Random&lt;/div&gt;&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; font-size: 16px&quot; class=&quot;newpage&quot;&gt;&amp;nbsp; - Cipher Suites(ECDHE_RSA)&lt;/div&gt;&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; font-size: 16px&quot; class=&quot;newpage&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=0;comic=1;fontFamily=Courier New;labelBackgroundColor=none;fillColor=#cdeb8b;fontSize=16;align=left;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="470" y="585" width="300" height="95" as="geometry" />
-        </mxCell>
-        <mxCell id="-5DfbcvIHxEYxNOzWpbB-8" value="&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; font-size: 16px&quot; class=&quot;newpage&quot;&gt;&lt;b&gt;ServerKeyExchange&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; font-size: 16px&quot; class=&quot;newpage&quot;&gt;&amp;nbsp; - Named Curve&lt;/div&gt;&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; font-size: 16px&quot; class=&quot;newpage&quot;&gt;&amp;nbsp; - Pubkey&lt;/div&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;&amp;nbsp; - Signature&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px ; font-size: 16px&quot; class=&quot;newpage&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=0;comic=1;fontFamily=Courier New;labelBackgroundColor=none;fillColor=#cdeb8b;fontSize=16;align=left;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="470" y="740" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-5DfbcvIHxEYxNOzWpbB-9" value="&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px&quot; class=&quot;newpage&quot;&gt;&lt;div style=&quot;overflow: auto ; margin-top: 0px ; margin-bottom: 0px&quot; class=&quot;newpage&quot;&gt;Certificate&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=0;comic=1;fontFamily=Courier New;labelBackgroundColor=none;fillColor=#cdeb8b;fontSize=16;align=left;fontStyle=1;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="470" y="680" width="300" height="60" as="geometry" />
@@ -87,6 +84,9 @@
             <mxPoint x="447" y="1235" as="sourcePoint" />
             <mxPoint x="327" y="1234.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iLiKI8UxI73QF8hjUmna-1" value="&lt;span style=&quot;color: rgb(44, 62, 80); font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;TLS&amp;nbsp; 之&amp;nbsp;&lt;/span&gt;RSA 算法握手过程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="325" y="490" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

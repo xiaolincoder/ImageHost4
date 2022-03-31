@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T06:26:56.250Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="Fs3U-mAh-WKIyp8IxvP_" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T12:32:26.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="OMWkS_PRdsALn6ERnR6h" version="17.2.4" type="github">
   <diagram id="Cp42pC52uNfqe64E5h4S" name="第 1 页">
-    <mxGraphModel dx="929" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="929" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
         <mxCell id="SdBFjOFu3vt-NOmjHi9i-13" value="启动事务 B 时，&lt;br style=&quot;font-size: 16px&quot;&gt;创建的 Read View，且事务 id 为 &lt;font color=&quot;#ff3333&quot;&gt;52&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="470" y="50" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SdBFjOFu3vt-NOmjHi9i-14" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="SdBFjOFu3vt-NOmjHi9i-14" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="270" y="485" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SdBFjOFu3vt-NOmjHi9i-15" value="小林" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">

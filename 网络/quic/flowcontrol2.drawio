@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T08:58:50.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="VunZdk_Gf9_4mknrNvCa" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T09:31:55.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="2k-qb59LN4ppKexpVFH3" version="17.5.0" type="github">
   <diagram id="gOs2Jo8RuzsVZBUV8PG6" name="Page-1">
     <mxGraphModel dx="1191" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,14 +94,14 @@
         <mxCell id="bcTnke_WGb-QzDZbTlxw-26" value="最大接收窗口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="390" y="30" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bcTnke_WGb-QzDZbTlxw-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="1">
+        <mxCell id="bcTnke_WGb-QzDZbTlxw-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;entryX=0.377;entryY=-0.087;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bcTnke_WGb-QzDZbTlxw-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="240" as="sourcePoint" />
             <mxPoint x="630" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bcTnke_WGb-QzDZbTlxw-29" value="收到的&lt;br&gt;最大偏移" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="610" y="310" width="80" height="40" as="geometry" />
+        <mxCell id="bcTnke_WGb-QzDZbTlxw-29" value="收到的&lt;br&gt;最大偏移字节数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="610" y="320" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

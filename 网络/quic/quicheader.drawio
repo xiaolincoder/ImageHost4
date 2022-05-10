@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T10:45:14.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="6lpj0WnNMbDlQB7b3zC0" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T10:45:31.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="esrEoG4bF2BMp87_YHvN" version="17.5.0" type="github">
   <diagram id="F2Pzh7L2SbBgxynTq77H" name="Page-1">
     <mxGraphModel dx="1191" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="uvT6o-C92K39rOI1GQxc-2" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Destination Connection ID&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="160" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uvT6o-C92K39rOI1GQxc-3" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;avenir&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft sans serif&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Long Packet Header&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="220" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

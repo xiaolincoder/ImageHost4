@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T08:38:51.147Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="VWXox5C1BrV4vwjba1lr" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T08:58:50.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="VunZdk_Gf9_4mknrNvCa" version="17.5.0" type="github">
   <diagram id="gOs2Jo8RuzsVZBUV8PG6" name="Page-1">
     <mxGraphModel dx="1191" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,18 +9,18 @@
         </mxCell>
         <mxCell id="bcTnke_WGb-QzDZbTlxw-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="270" as="sourcePoint" />
-            <mxPoint x="160" y="100" as="targetPoint" />
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="160" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bcTnke_WGb-QzDZbTlxw-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="760" y="280" as="sourcePoint" />
-            <mxPoint x="760" y="80" as="targetPoint" />
+            <mxPoint x="760" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bcTnke_WGb-QzDZbTlxw-5" value="接收窗口&lt;br&gt;200 字节" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="650" y="80" width="80" height="40" as="geometry" />
+        <mxCell id="bcTnke_WGb-QzDZbTlxw-5" value="接收窗口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="650" y="90" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bcTnke_WGb-QzDZbTlxw-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -47,13 +47,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bcTnke_WGb-QzDZbTlxw-14" value="丢失的数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#f9f7ed;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="380" y="60" width="100" height="20" as="geometry" />
+          <mxGeometry x="414" y="100" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bcTnke_WGb-QzDZbTlxw-16" value="未被上层&lt;br&gt;读取的有序数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffcc99;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="310" y="300" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bcTnke_WGb-QzDZbTlxw-18" value="已收到，&lt;br&gt;但是乱序的数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="1">
-          <mxGeometry x="510" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bcTnke_WGb-QzDZbTlxw-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=0.486;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.54;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bcTnke_WGb-QzDZbTlxw-1" target="bcTnke_WGb-QzDZbTlxw-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -84,6 +84,24 @@
             <mxPoint x="770" y="350" as="sourcePoint" />
             <mxPoint x="820" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bcTnke_WGb-QzDZbTlxw-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="60" as="sourcePoint" />
+            <mxPoint x="754" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcTnke_WGb-QzDZbTlxw-26" value="最大接收窗口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="30" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bcTnke_WGb-QzDZbTlxw-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="240" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcTnke_WGb-QzDZbTlxw-29" value="收到的&lt;br&gt;最大偏移" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="610" y="310" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

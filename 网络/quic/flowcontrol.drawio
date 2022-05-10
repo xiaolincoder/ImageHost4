@@ -1,35 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T08:31:42.245Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="9TlxSHI_q_Sjomj4GYP3" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T08:58:31.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="1dcwLv4XaAa1nmZcYX-7" version="17.5.0" type="github">
   <diagram id="oAsJ6UTyK2A2yl9slzis" name="Page-1">
-    <mxGraphModel dx="946" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1191" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="As5HdU9d807DBHJ7O390-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="160" width="400" height="80" as="geometry" />
+        <mxCell id="As5HdU9d807DBHJ7O390-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="740" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="As5HdU9d807DBHJ7O390-2" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;接收端窗口初始状态&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="260" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="As5HdU9d807DBHJ7O390-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="As5HdU9d807DBHJ7O390-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="270" as="sourcePoint" />
-            <mxPoint x="160" y="100" as="targetPoint" />
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="160" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="As5HdU9d807DBHJ7O390-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="As5HdU9d807DBHJ7O390-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="260" as="sourcePoint" />
-            <mxPoint x="480" y="90" as="targetPoint" />
+            <mxPoint x="760" y="280" as="sourcePoint" />
+            <mxPoint x="760" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="As5HdU9d807DBHJ7O390-5" value="接收窗口&lt;br&gt;200 字节" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="280" y="70" width="80" height="40" as="geometry" />
+        <mxCell id="As5HdU9d807DBHJ7O390-15" value="接收窗口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="As5HdU9d807DBHJ7O390-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="As5HdU9d807DBHJ7O390-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="120" as="sourcePoint" />
-            <mxPoint x="480" y="120" as="targetPoint" />
+            <mxPoint x="760" y="120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="As5HdU9d807DBHJ7O390-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="60" as="sourcePoint" />
+            <mxPoint x="754" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="As5HdU9d807DBHJ7O390-31" value="最大接收窗口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="30" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="As5HdU9d807DBHJ7O390-34" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(77, 77, 77); font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;接收端窗口初始状态&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

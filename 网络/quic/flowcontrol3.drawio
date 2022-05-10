@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T09:31:30.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="H17QmaH2TBavmxJM4YPE" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T09:31:39.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="nUq4X-N8glf3q_PxwWYV" version="17.5.0" type="github">
   <diagram id="b-bpmcfJdHbeQzDP5A_M" name="Page-1">
     <mxGraphModel dx="1191" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
             <mxPoint x="309.5" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L-WXJkZDCp4-7IXhfQIK-28" value="当绿色部分的数据超过最大接收窗口的一半，&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;最大接收窗口向右移动当前绿色部分的数据&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="L-WXJkZDCp4-7IXhfQIK-28" value="当绿色部分的数据超过最大接收窗口的一半，&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;最大接收窗口向右移动当前绿色部分的字节数&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="400" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="L-WXJkZDCp4-7IXhfQIK-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=default;" vertex="1" parent="1">

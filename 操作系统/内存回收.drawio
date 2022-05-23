@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T02:38:12.396Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="R1jdtKbKx2t-J4Cwg6db" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-23T03:47:48.968Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="kRfvx-itlDd1IO6AU9fh" version="18.0.6" type="github">
   <diagram id="sDzDsDj6bAW6XiSYmTlv" name="Page-1">
     <mxGraphModel dx="872" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,11 +18,64 @@
         <mxCell id="GJdycFKqQ1Wu2BRTlc2W-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Page Fault&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-8" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GJdycFKqQ1Wu2BRTlc2W-6" target="GJdycFKqQ1Wu2BRTlc2W-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-18" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GJdycFKqQ1Wu2BRTlc2W-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GJdycFKqQ1Wu2BRTlc2W-6" value="有足够大小的&lt;br&gt;空闲物理内存？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="160" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-7" value="唤醒后台内存回收线程(kswapd)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-10" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GJdycFKqQ1Wu2BRTlc2W-7" target="GJdycFKqQ1Wu2BRTlc2W-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-7" value="唤醒后台内存回收线程 kswapd&lt;br&gt;（异步回收）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="424" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-12" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJdycFKqQ1Wu2BRTlc2W-9" target="GJdycFKqQ1Wu2BRTlc2W-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-9" value="有足够大小的&lt;br&gt;空闲物理内存？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="480" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-15" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJdycFKqQ1Wu2BRTlc2W-11" target="GJdycFKqQ1Wu2BRTlc2W-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-11" value="直接内存回收&lt;br&gt;（同步回收）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="424" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-17" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJdycFKqQ1Wu2BRTlc2W-14" target="GJdycFKqQ1Wu2BRTlc2W-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-14" value="有足够大小的&lt;br&gt;空闲物理内存？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="780" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-16" value="OOM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="424" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-19" value="分配内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="610" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-20" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="550" as="targetPoint" />
+            <mxPoint x="554" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-21" value="分配内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="610" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-26" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="850" as="targetPoint" />
+            <mxPoint x="554" y="850" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GJdycFKqQ1Wu2BRTlc2W-27" value="分配内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="610" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

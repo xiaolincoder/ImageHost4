@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T03:48:10.236Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="a70WDCtplQdXXk4yotx7" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-23T03:48:38.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="Ffw8luIrJfvmoi7mVc7e" version="18.0.6" type="github">
   <diagram id="sDzDsDj6bAW6XiSYmTlv" name="Page-1">
     <mxGraphModel dx="872" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GJdycFKqQ1Wu2BRTlc2W-7" value="唤醒后台内存回收线程 kswapd&lt;br&gt;（异步回收）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="424" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="370" width="157" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GJdycFKqQ1Wu2BRTlc2W-12" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJdycFKqQ1Wu2BRTlc2W-9" target="GJdycFKqQ1Wu2BRTlc2W-11">
           <mxGeometry relative="1" as="geometry" />
@@ -45,7 +45,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GJdycFKqQ1Wu2BRTlc2W-11" value="直接内存回收&lt;br&gt;（同步回收）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="424" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="670" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GJdycFKqQ1Wu2BRTlc2W-17" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJdycFKqQ1Wu2BRTlc2W-14" target="GJdycFKqQ1Wu2BRTlc2W-16">
           <mxGeometry relative="1" as="geometry" />
@@ -54,7 +54,7 @@
           <mxGeometry x="414" y="780" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="GJdycFKqQ1Wu2BRTlc2W-16" value="OOM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="424" y="970" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="970" width="164" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GJdycFKqQ1Wu2BRTlc2W-19" value="分配内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="610" y="200" width="120" height="60" as="geometry" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T12:01:49.927Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="sb8WZYfAb3t3RL_LU1iJ" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T12:02:04.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="r9vDyUtpPLXEPtfumHNa" version="18.1.1" type="github">
   <diagram id="ixZHhRBdgr8huFLMsZwX" name="Page-1">
     <mxGraphModel dx="1056" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="xrDSkSMQvehZMadIAZ1p-10" value="为什么 MySQL InnoDB&amp;nbsp; 选择 B+tree 作为索引的数据结构？" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="120" y="-310" width="270" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="xrDSkSMQvehZMadIAZ1p-11" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;B+Tree vs B Tree：&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;存储相同数据量级别的情况下，B+Tree 树高比&amp;nbsp;&amp;nbsp;B Tree 低，磁盘 I/O 次数更少。&lt;/li&gt;&lt;li&gt;&amp;nbsp;B+Tree 叶子节点用双向链表串起来，适合范围查询，B Tree 无法做到这点&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;B+Tree vs 二叉树：&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;随着数据量的增加，二叉树的树高会越来约高，磁盘 I/O 次数也会更多，&amp;nbsp;B+Tree 在千万级别的数据量下，高度依然维持在 3~4 层左右，也就是说一次数据查询操作只需要做 3~4 次的磁盘 I/O 操作就能查询到目标数据。&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;B+Tree vs Hash：&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;虽然 Hash 的等值查询效率很高，但是无法做范围查询&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=16;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="xrDSkSMQvehZMadIAZ1p-11" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;B+Tree vs B Tree：&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;存储相同数据量级别的情况下，B+Tree 树高比&amp;nbsp;&amp;nbsp;B Tree 低，磁盘 I/O 次数更少。&lt;/li&gt;&lt;li&gt;&amp;nbsp;B+Tree 叶子节点用双向链表串起来，适合范围查询，B Tree 无法做到这点&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;B+Tree vs 二叉树：&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;随着数据量的增加，二叉树的树高会越来越高，磁盘 I/O 次数也会更多，&amp;nbsp;B+Tree 在千万级别的数据量下，高度依然维持在 3~4 层左右，也就是说一次数据查询操作只需要做 3~4 次的磁盘 I/O 操作就能查询到目标数据。&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;B+Tree vs Hash：&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;虽然 Hash 的等值查询效率很高，但是无法做范围查询&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=16;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="390" y="-310" width="440" height="370" as="geometry" />
         </mxCell>
       </root>

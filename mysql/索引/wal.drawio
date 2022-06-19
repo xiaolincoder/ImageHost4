@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T13:06:51.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.0.1" etag="qfgO3Kgxx5sXBFy6LlQq" type="github"><diagram id="NxoDk5jFnezssc5WMEww">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-19T13:29:40.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="qBlzKqpt-W8v3vGNnjuY" version="20.0.1" type="github">
+  <diagram id="NxoDk5jFnezssc5WMEww" name="Page-1">
+    <mxGraphModel dx="916" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-20" value="&amp;nbsp; &amp;nbsp; Innodb 存储引擎" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fillColor=#f9f7ed;strokeColor=#36393d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="860" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-2" value="&amp;nbsp; &amp;nbsp; Buffer Pool" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="360" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-15" value="1. 执行 SQL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="cmeiltcvOvK6NLEMTRq0-1">
+          <mxGeometry x="-0.1765" relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="350" />
+              <mxPoint x="400" y="350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-1" value="server 层" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-3" value="缓存页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-17" value="3. 记录了某个数据页做了什么修改" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;exitX=0.113;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cmeiltcvOvK6NLEMTRq0-4" target="cmeiltcvOvK6NLEMTRq0-16">
+          <mxGeometry x="0.6616" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-4" value="缓存页&lt;br&gt;（变为脏页）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;horizontal=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-5" value="缓存页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-7" value="磁盘文件" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;verticalAlign=bottom;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="480" y="630" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-8" value="数据页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="490" y="677.5" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-9" value="数据页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="677.5" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-10" value="数据页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="490" y="730" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-11" value="数据页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="730" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-12" value="2. 将数据页加载到&amp;nbsp;&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;Buffer Pool&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="cmeiltcvOvK6NLEMTRq0-7" target="cmeiltcvOvK6NLEMTRq0-2">
+          <mxGeometry x="-0.7931" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="600" as="sourcePoint" />
+            <mxPoint x="470" y="550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-16" value="redo log 文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="210" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-19" value="5. 定期将脏页&lt;br&gt;刷新到磁盘" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="cmeiltcvOvK6NLEMTRq0-18" target="cmeiltcvOvK6NLEMTRq0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-18" value="后台线程" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="780" y="360" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cmeiltcvOvK6NLEMTRq0-21" value="4. 更新数据页" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cmeiltcvOvK6NLEMTRq0-4">
+          <mxGeometry x="-0.2308" y="10" relative="1" as="geometry">
+            <mxPoint x="500" y="230" as="sourcePoint" />
+            <mxPoint x="500" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="400" />
+              <mxPoint x="430" y="400" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

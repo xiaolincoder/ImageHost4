@@ -1,1 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T14:09:34.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.0.1" etag="e33qWSKkwmDbGoIT9RqH" type="github"><diagram id="vPrcXZOmzuV0REW5pcch">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-19T14:29:08.394Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="sXotcQzJg9cqFiYx9XjB" version="20.0.1" type="github">
+  <diagram id="vPrcXZOmzuV0REW5pcch" name="Page-1">
+    <mxGraphModel dx="916" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="760" y="60" width="160" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-4" value="&lt;span style=&quot;&quot;&gt;redo log buffer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-5" value="buffer pool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-8" value="DML 语句&lt;br&gt;（增删改）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="159" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=16;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="280" as="sourcePoint" />
+            <mxPoint x="370" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-10" value="commit&lt;br&gt;提交事务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-17" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="770" y="140" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-18" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="770" y="390" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-21" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="770" y="630" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="580" y="150" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-28" value="page cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="590" y="120" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-30" value="&lt;span style=&quot;&quot;&gt;redo log buffer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="370" y="370" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-31" value="buffer pool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="370" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-34" value="DML 语句&lt;br&gt;（增删改）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="409" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-36" value="commit&lt;br&gt;提交事务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="580" y="400" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-38" value="page cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-39" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="160" y="630" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-40" value="&lt;span style=&quot;&quot;&gt;redo log buffer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-41" value="buffer pool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="600" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-42" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="370" y="630" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-44" value="DML 语句&lt;br&gt;（增删改）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="639" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-45" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=16;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;labelBackgroundColor=#99FFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="198" y="760" as="sourcePoint" />
+            <mxPoint x="578" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-58" value="写入 redo log 文件（不刷盘）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;labelBackgroundColor=#99FFFF;" vertex="1" connectable="0" parent="l0K1ojQIf0pkBlHeoTDS-45">
+          <mxGeometry x="-0.2368" y="-3" relative="1" as="geometry">
+            <mxPoint x="97" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-46" value="commit&lt;br&gt;提交事务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="710" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-47" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="580" y="630" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-48" value="page cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="590" y="600" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=16;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="210" as="sourcePoint" />
+            <mxPoint x="370" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-51" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=16;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="460" as="sourcePoint" />
+            <mxPoint x="370" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=16;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;entryX=-0.025;entryY=0.604;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="l0K1ojQIf0pkBlHeoTDS-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="530" as="sourcePoint" />
+            <mxPoint x="750" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-59" value="&lt;span style=&quot;&quot;&gt;写入 redo log 文件并且刷盘&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;labelBackgroundColor=#99FFFF;" vertex="1" connectable="0" parent="l0K1ojQIf0pkBlHeoTDS-35">
+          <mxGeometry x="-0.0357" y="3" relative="1" as="geometry">
+            <mxPoint x="-13" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-52" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=16;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="690" as="sourcePoint" />
+            <mxPoint x="370" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-53" value="参数为 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="215" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-54" value="参数为 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="470" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-56" value="参数为 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="695" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l0K1ojQIf0pkBlHeoTDS-61" value="&lt;span style=&quot;&quot;&gt;依然留存在 redo log buffer&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;labelBackgroundColor=#99FFFF;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="369.9954019003221" y="260.000216829947" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T15:01:04.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="6ry_1Eb-zjuTOeP6LPvf" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-19T15:01:24.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="4xtXwAL5iO0iDKzPcVno" version="20.0.1" type="github">
   <diagram id="SPF4bl__4cPRsVLuZ7SP" name="Page-1">
     <mxGraphModel dx="916" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,13 +13,13 @@
         <mxCell id="tFhsLO-X5YyHum3ezjBZ-5" value="redo log buffer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="260" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tFhsLO-X5YyHum3ezjBZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="tFhsLO-X5YyHum3ezjBZ-10" target="tFhsLO-X5YyHum3ezjBZ-13">
+        <mxCell id="tFhsLO-X5YyHum3ezjBZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeWidth=2;strokeColor=#CC0000;" edge="1" parent="1" source="tFhsLO-X5YyHum3ezjBZ-10" target="tFhsLO-X5YyHum3ezjBZ-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tFhsLO-X5YyHum3ezjBZ-10" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;ib_logfile0&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="170" y="240" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tFhsLO-X5YyHum3ezjBZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="tFhsLO-X5YyHum3ezjBZ-13" target="tFhsLO-X5YyHum3ezjBZ-10">
+        <mxCell id="tFhsLO-X5YyHum3ezjBZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;strokeWidth=2;strokeColor=#CC0000;" edge="1" parent="1" source="tFhsLO-X5YyHum3ezjBZ-13" target="tFhsLO-X5YyHum3ezjBZ-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="490" y="270" />

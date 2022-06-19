@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T15:03:20.006Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LdELM8Bnu8238gVSmgav" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-19T15:03:24.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="WsTLq9aHFrEzvSEiD8ub" version="20.0.1" type="github">
   <diagram id="SPF4bl__4cPRsVLuZ7SP" name="Page-1">
     <mxGraphModel dx="916" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tFhsLO-X5YyHum3ezjBZ-5" value="redo log buffer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="200" y="90" width="180" height="60" as="geometry" />
+          <mxGeometry x="230" y="90" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tFhsLO-X5YyHum3ezjBZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeWidth=2;strokeColor=#CC0000;" edge="1" parent="1" source="tFhsLO-X5YyHum3ezjBZ-10" target="tFhsLO-X5YyHum3ezjBZ-13">
           <mxGeometry relative="1" as="geometry" />

@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T16:53:04.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.3" etag="H59fvpWweM1vkgUzyf9N" type="github"><diagram id="pru8hU9X7wry34C5xTP0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-26T16:56:54.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bsLtnJabRYrhtWnjqWiL" version="20.0.3" type="github">
+  <diagram id="pru8hU9X7wry34C5xTP0" name="Page-1">
+    <mxGraphModel dx="1092" dy="1867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S8TJ1Cz1vlxeqqj6qBjk-10" value="&lt;span style=&quot;font-family: Menlo, monospace;&quot;&gt;order_no 为唯一二级索引字段，且存在&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo, monospace;&quot;&gt;order_no 为 1001 的记录&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Times New Roman;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="370" y="430" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S8TJ1Cz1vlxeqqj6qBjk-11" value="" style="group;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="-150" width="990" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="S8TJ1Cz1vlxeqqj6qBjk-2" value="事务A" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="S8TJ1Cz1vlxeqqj6qBjk-11">
+          <mxGeometry width="495.00000000000006" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="S8TJ1Cz1vlxeqqj6qBjk-3" value="事务B" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="S8TJ1Cz1vlxeqqj6qBjk-11">
+          <mxGeometry x="495.00000000000006" width="495.00000000000006" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="S8TJ1Cz1vlxeqqj6qBjk-4" value="begin;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="S8TJ1Cz1vlxeqqj6qBjk-11">
+          <mxGeometry y="140" width="495.00000000000006" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="S8TJ1Cz1vlxeqqj6qBjk-5" value="begin;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="S8TJ1Cz1vlxeqqj6qBjk-11">
+          <mxGeometry x="495.00000000000006" y="140" width="495.00000000000006" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="S8TJ1Cz1vlxeqqj6qBjk-6" value="&lt;div style=&quot;font-family: Menlo, monospace; font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;insert into t_order(order_no, create_date) values(1001,now());                                                                                                                 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;ERROR 1062 (23000): Duplicate entry &#39;1001&#39; for key &#39;t_order.index_order&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;#&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;order_no 为 1001 的记录加 S 型的 netx-key 锁&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="S8TJ1Cz1vlxeqqj6qBjk-11">
+          <mxGeometry y="280" width="495.00000000000006" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="S8TJ1Cz1vlxeqqj6qBjk-7" value="&lt;div style=&quot;font-family: Menlo, monospace;&quot;&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;select * from t_order where order_no = 1001 for update; &lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-family: Menlo, monospace; font-size: 16px;&quot;&gt;&lt;br&gt;发生阻塞....&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;" vertex="1" parent="S8TJ1Cz1vlxeqqj6qBjk-11">
+          <mxGeometry x="495.00000000000006" y="420" width="495.00000000000006" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="S8TJ1Cz1vlxeqqj6qBjk-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="S8TJ1Cz1vlxeqqj6qBjk-11">
+          <mxGeometry x="495.00000000000006" y="280" width="495.00000000000006" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="S8TJ1Cz1vlxeqqj6qBjk-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="S8TJ1Cz1vlxeqqj6qBjk-11">
+          <mxGeometry y="420" width="495.00000000000006" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

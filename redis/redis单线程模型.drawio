@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T05:17:35.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7R9fiak08Qugc29EMvco" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-13T05:17:43.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="co4GrhU9wkQPbr5pAgpb" version="20.0.4" type="github">
   <diagram id="9gkHI4vsH9qjdE6WEu2j" name="Page-1">
     <mxGraphModel dx="1968" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -201,7 +201,7 @@
           <mxGeometry x="40" y="950" width="40" height="130" as="geometry" />
         </mxCell>
         <mxCell id="A9LQamvl4RPl7JUWQ36L-73" value="公众号：小林coding&lt;br style=&quot;font-size: 16px;&quot;&gt;xiaolincoding.com" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="760" y="400" width="210" height="40" as="geometry" />
+          <mxGeometry x="750" y="375" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

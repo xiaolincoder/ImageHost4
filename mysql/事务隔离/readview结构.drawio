@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T08:08:03.803Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="MRVONKwZ9PIFy9HTB2Qa" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T08:30:07.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bWya2Vui0yVyBAnwA1Vl" version="20.2.2" type="github">
   <diagram id="Uxn3bXyPjCfJQ1-PjFrz" name="Page-1">
-    <mxGraphModel dx="880" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="I7-IHPZWwKJfuNdlM093-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/11a65cbc2e97f6855d7692a265dc2651.png;" vertex="1" parent="1">
+        <mxCell id="I7-IHPZWwKJfuNdlM093-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img-blog.csdnimg.cn/img_convert/11a65cbc2e97f6855d7692a265dc2651.png;" parent="1" vertex="1">
           <mxGeometry x="140" y="270" width="598.41" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="I7-IHPZWwKJfuNdlM093-3" value="创建 Read View 时当前数据库中&lt;br style=&quot;font-size: 16px;&quot;&gt;活跃且未提交的事物的事物 id 列表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="I7-IHPZWwKJfuNdlM093-3" value="创建 Read View 时，&lt;br&gt;当前数据库中「活跃且未提交」的&lt;br&gt;事务 id 列表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="170" y="270" width="270" height="60" as="geometry" />
         </mxCell>
       </root>

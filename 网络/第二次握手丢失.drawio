@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T06:31:36.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uQLEbEbceBFah3nzZq8r" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-24T06:34:01.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="PENB8uqvmZm5qvRJuLJu" version="20.2.4" type="github">
   <diagram id="YcbZgbcO68XsaDMt3gth" name="第 1 页">
     <mxGraphModel dx="1773" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,9 +37,10 @@
           <mxGeometry x="5" y="310" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4zzjcm8Y2lMl3Gj6XbMF-12" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=0;exitDx=0;exitDy=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.2866" y="2" relative="1" as="geometry">
             <mxPoint x="350" y="470" as="targetPoint" />
             <mxPoint x="240" y="410" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4zzjcm8Y2lMl3Gj6XbMF-13" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;SYN 报文重传次数，&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;如果超过 tcp_syn_retries 参数的值，&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;则释放连接&lt;/blockquote&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
@@ -71,7 +72,7 @@
         </mxCell>
         <mxCell id="4zzjcm8Y2lMl3Gj6XbMF-23" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=0;exitDx=0;exitDy=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry x="-0.1321" y="-3" relative="1" as="geometry">
-            <mxPoint x="380" y="280" as="targetPoint" />
+            <mxPoint x="370" y="290" as="targetPoint" />
             <mxPoint x="240" y="240" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T06:45:46.071Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="oPgoSC9k6o3dWeyiKQ7A" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-24T06:46:05.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QBO5TGX1DbBcmWdF20gS" version="20.2.4" type="github">
   <diagram id="wu6pgjA1frvF403H3q0h" name="第 1 页">
     <mxGraphModel dx="946" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-38" value="超时重传&lt;br&gt;4*RTO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry y="330" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-39" value="超时重传&lt;br&gt;6*RTO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-39" value="超时重传&lt;br&gt;8*RTO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry y="560" width="90" height="50" as="geometry" />
         </mxCell>
       </root>

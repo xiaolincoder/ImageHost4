@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T07:31:52.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="SMV7x67b9O_QokUH4yny" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-24T07:33:20.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LNAdbo6l7E2bLvnCHKTY" version="20.2.4" type="github">
   <diagram id="YcbZgbcO68XsaDMt3gth" name="第 1 页">
     <mxGraphModel dx="1773" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,6 +119,9 @@
         </mxCell>
         <mxCell id="4zzjcm8Y2lMl3Gj6XbMF-71" value="CLOSE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="560" y="990" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4zzjcm8Y2lMl3Gj6XbMF-72" value="假设&amp;nbsp;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;tcp_syn_retries = 1，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;tcp_synack_retries = 2，&lt;br&gt;当第二握手一直丢失时&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-50" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

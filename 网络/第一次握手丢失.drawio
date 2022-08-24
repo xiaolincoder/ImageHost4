@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T06:18:05.893Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bE4TWZKjlMsBICpgU42x" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-24T06:19:02.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QJ7GkSWozAZAC755i8IN" version="20.2.4" type="github">
   <diagram id="wu6pgjA1frvF403H3q0h" name="第 1 页">
     <mxGraphModel dx="946" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-8" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yr_fBWCwj4eAoXx8XVEz-2">
+        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-8" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=0;exitDx=0;exitDy=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="Yr_fBWCwj4eAoXx8XVEz-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="220" as="targetPoint" />
           </mxGeometry>
@@ -30,7 +30,7 @@
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-11" value="超时重传" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="10" y="185" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-12" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-12" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=0;exitDx=0;exitDy=0;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="300" as="targetPoint" />
             <mxPoint x="240" y="240" as="sourcePoint" />
@@ -42,7 +42,7 @@
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-15" value="超时重传" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="10" y="305" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-16" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-16" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=0;exitDx=0;exitDy=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="460" as="targetPoint" />
             <mxPoint x="240" y="400" as="sourcePoint" />

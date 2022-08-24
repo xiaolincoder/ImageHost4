@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T06:47:17.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="rWN5fitlYEzNUHw9LlQL" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-24T06:48:30.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DBm3J334rF4gQ_t1d5lX" version="20.2.4" type="github">
   <diagram id="wu6pgjA1frvF403H3q0h" name="第 1 页">
     <mxGraphModel dx="946" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-8" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=1;exitDx=0;exitDy=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;strokeWidth=2;entryX=-0.065;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Yr_fBWCwj4eAoXx8XVEz-3" target="Yr_fBWCwj4eAoXx8XVEz-22">
+        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-8" value="&lt;font color=&quot;#ff9933&quot;&gt;&lt;b&gt;SYN&lt;br&gt;seq = x&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=1;exitDx=0;exitDy=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#FF9933;strokeWidth=2;entryX=-0.065;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Yr_fBWCwj4eAoXx8XVEz-3" target="Yr_fBWCwj4eAoXx8XVEz-22">
           <mxGeometry x="0.0259" y="10" relative="1" as="geometry">
             <mxPoint x="430" y="160" as="targetPoint" />
             <mxPoint as="offset" />
@@ -28,7 +28,7 @@
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-11" value="超时重传 &lt;br&gt;RTO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
           <mxGeometry y="155" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-12" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;strokeWidth=2;entryX=-0.033;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Yr_fBWCwj4eAoXx8XVEz-23">
+        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-12" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;重传 SYN&lt;br&gt;seq = x&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;strokeWidth=2;entryX=-0.033;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Yr_fBWCwj4eAoXx8XVEz-23">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="200" as="targetPoint" />
             <mxPoint x="240" y="200" as="sourcePoint" />
@@ -59,7 +59,7 @@
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-27" value="服务端" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="588" width="64" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-28" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;strokeWidth=2;entryX=-0.031;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Yr_fBWCwj4eAoXx8XVEz-29">
+        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-28" value="&lt;b style=&quot;color: rgb(255, 0, 0);&quot;&gt;重传&amp;nbsp;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;SYN&lt;br&gt;seq = x&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;strokeWidth=2;entryX=-0.031;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Yr_fBWCwj4eAoXx8XVEz-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="438.89" y="280" as="targetPoint" />
             <mxPoint x="238.89" y="280" as="sourcePoint" />
@@ -72,7 +72,7 @@
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="98.89" y="280" width="20" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-31" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-31" value="&lt;b style=&quot;color: rgb(255, 0, 0);&quot;&gt;重传&amp;nbsp;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;SYN&lt;br&gt;seq = x&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="440" as="targetPoint" />
             <mxPoint x="238.88999999999987" y="440" as="sourcePoint" />
@@ -85,7 +85,7 @@
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="98.89" y="440" width="20" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-34" value="SYN&lt;br&gt;seq = x" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;strokeWidth=2;entryX=-0.067;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Yr_fBWCwj4eAoXx8XVEz-35">
+        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-34" value="&lt;b style=&quot;color: rgb(255, 0, 0);&quot;&gt;重传&amp;nbsp;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;SYN&lt;br&gt;seq = x&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;strokeWidth=2;entryX=-0.067;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Yr_fBWCwj4eAoXx8XVEz-35">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="439.9999999999999" y="740" as="targetPoint" />
             <mxPoint x="239.9999999999999" y="740" as="sourcePoint" />

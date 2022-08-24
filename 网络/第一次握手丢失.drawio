@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T06:48:30.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DBm3J334rF4gQ_t1d5lX" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-24T07:43:43.212Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_VLX3SlFfuCgfN95BIGL" version="20.2.4" type="github">
   <diagram id="wu6pgjA1frvF403H3q0h" name="第 1 页">
     <mxGraphModel dx="946" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,9 +41,6 @@
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-15" value="超时重传&lt;br&gt;2*RTO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
           <mxGeometry y="215" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-18" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;SYN 报文重传次数，&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;如果超过 tcp_syn_retries 参数的值，&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;则释放连接&lt;/blockquote&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="240" y="790" width="320" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-20" value="CLOSE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="118.89" y="740" width="120" height="40" as="geometry" />
         </mxCell>
@@ -85,16 +82,6 @@
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="98.89" y="440" width="20" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-34" value="&lt;b style=&quot;color: rgb(255, 0, 0);&quot;&gt;重传&amp;nbsp;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;SYN&lt;br&gt;seq = x&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;strokeWidth=2;entryX=-0.067;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Yr_fBWCwj4eAoXx8XVEz-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="439.9999999999999" y="740" as="targetPoint" />
-            <mxPoint x="239.9999999999999" y="740" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-35" value="丢失" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B20000;fillColor=#e51400;fontSize=16;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="440" y="730" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-37" value="CLOSE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="560" y="740" width="120" height="40" as="geometry" />
         </mxCell>
@@ -103,6 +90,9 @@
         </mxCell>
         <mxCell id="Yr_fBWCwj4eAoXx8XVEz-39" value="超时重传&lt;br&gt;8*RTO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
           <mxGeometry y="560" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_fBWCwj4eAoXx8XVEz-43" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;blockquote style=&quot;font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(0, 0, 0); margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;SYN 报文重传次数，&lt;/blockquote&gt;&lt;blockquote style=&quot;font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(0, 0, 0); margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;如超过 tcp_syn_retries 参数的值，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;则会在等待一段时间，&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(0, 0, 0); margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;还是没能收到第二次握手的话，&lt;/blockquote&gt;&lt;blockquote style=&quot;font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(0, 0, 0); margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;就会断开连接&lt;/blockquote&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="780" width="480" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

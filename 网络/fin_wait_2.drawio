@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T08:13:01.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6NIZaQaXr8L5H65XGor_" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-24T08:13:12.378Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3ix1Hv3IMoJGUNFSbNDu" version="20.2.4" type="github">
   <diagram id="Fa6m_Z5WMGcqbGw5dG9U" name="第 1 页">
     <mxGraphModel dx="1773" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="5VaZX67ThPw-DQXuEVwe-5" value="ESTABLISH" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="558.89" y="200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5VaZX67ThPw-DQXuEVwe-6" value="FIN_WAIT_1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+        <mxCell id="5VaZX67ThPw-DQXuEVwe-6" value="FIN_WAIT_1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
           <mxGeometry x="120" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VaZX67ThPw-DQXuEVwe-7" value="&lt;b style=&quot;color: rgb(255, 153, 51); font-size: 16px;&quot;&gt;FIN&lt;br style=&quot;font-size: 16px;&quot;&gt;seq = x，ack = y&lt;/b&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=0;exitDx=0;exitDy=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;strokeWidth=2;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="5VaZX67ThPw-DQXuEVwe-5">
@@ -39,7 +39,7 @@
             <mxPoint x="550" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5VaZX67ThPw-DQXuEVwe-25" value="FIN_WAIT_2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+        <mxCell id="5VaZX67ThPw-DQXuEVwe-25" value="FIN_WAIT_2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
           <mxGeometry x="120" y="340" width="120" height="180" as="geometry" />
         </mxCell>
         <mxCell id="5VaZX67ThPw-DQXuEVwe-26" value="close() 关闭连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=15;" vertex="1" parent="1">

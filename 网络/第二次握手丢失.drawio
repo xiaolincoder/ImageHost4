@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T07:11:50.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cMB_kwPOkcfSoQmWdnQo" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-24T07:11:59.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XQgkA2P-bde0sSBQr_JE" version="20.2.4" type="github">
   <diagram id="YcbZgbcO68XsaDMt3gth" name="第 1 页">
     <mxGraphModel dx="1773" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,10 +102,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4zzjcm8Y2lMl3Gj6XbMF-64" value="第二次握手最大重传次数由&lt;br style=&quot;font-size: 16px;&quot;&gt;tcp_synack_retries 参数控制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="4zzjcm8Y2lMl3Gj6XbMF-64" value="第二次握手最大重传次数由&lt;br style=&quot;font-size: 16px;&quot;&gt;tcp_synack_retries 参数控制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="260" y="680" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4zzjcm8Y2lMl3Gj6XbMF-65" value="第一次握手&lt;br&gt;最大重传次数由&lt;br style=&quot;font-size: 16px;&quot;&gt;tcp_syn_retries &lt;br&gt;参数控制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="4zzjcm8Y2lMl3Gj6XbMF-65" value="第一次握手&lt;br&gt;最大重传次数由&lt;br style=&quot;font-size: 16px;&quot;&gt;tcp_syn_retries &lt;br&gt;参数控制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-25" y="260" width="140" height="300" as="geometry" />
         </mxCell>
       </root>

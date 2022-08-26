@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T07:31:21.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6je_S8Ww-MLrbnJ-41dI" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T07:47:06.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pogn6ep734UNCdHlDyUx" version="20.2.7" type="github">
   <diagram id="9YLWA25oHTNvQ-ObGERG" name="第 1 页">
     <mxGraphModel dx="1563" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -74,11 +74,11 @@
         <mxCell id="sa1L4sj_0YtGaAlpQuxV-26" value="等待 2 MSL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#99004D;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-15" y="510" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sa1L4sj_0YtGaAlpQuxV-30" value="调用 close()&lt;br&gt;主动关闭连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="sa1L4sj_0YtGaAlpQuxV-30" value="主动调用&lt;br&gt;关闭连接函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="120" y="240" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sa1L4sj_0YtGaAlpQuxV-31" value="调用close() 关闭连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="538.89" y="400" width="170" height="30" as="geometry" />
+        <mxCell id="sa1L4sj_0YtGaAlpQuxV-31" value="调用关闭连接函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="548.89" y="400" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sa1L4sj_0YtGaAlpQuxV-32" value="read() 返回 EOF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="553.89" y="260" width="140" height="30" as="geometry" />

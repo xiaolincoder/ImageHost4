@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T10:08:41.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9vhYjjndtoe2hxH8PWb7" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T10:12:30.720Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xIKS0q6ZQX4xsbMeR34Q" version="20.2.7" type="github">
   <diagram id="oP-XuYKwCHZLZq5-KsGj" name="第 1 页">
     <mxGraphModel dx="1161" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -443,8 +443,8 @@
         <mxCell id="BHWLRK0BuXOgV4QIQUpP-216" value="③ 收到数据后，接着发送确认报文" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="154" y="860" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BHWLRK0BuXOgV4QIQUpP-217" value="④ 发送 120 个字节数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="694" y="1010" width="180" height="20" as="geometry" />
+        <mxCell id="BHWLRK0BuXOgV4QIQUpP-217" value="④ 继续发送 120 个字节数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="695.5" y="1005" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BHWLRK0BuXOgV4QIQUpP-218" value="⑤ 收到数据后，发送确认报文" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="184" y="1130" width="230" height="20" as="geometry" />

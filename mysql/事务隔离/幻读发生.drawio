@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T11:21:22.128Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.0" etag="pPxded0bCbBtzFagHuLZ" type="github"><diagram id="-nhBZZvWQemaSsEc2onR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-14T11:28:13.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6gDDDv2oVVkb-KB5Kom_" version="20.3.0" type="github">
+  <diagram id="-nhBZZvWQemaSsEc2onR" name="第 1 页">
+    <mxGraphModel dx="1773" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QLLydrI87n6_189Huacy-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="QLLydrI87n6_189Huacy-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="440" as="sourcePoint" />
+            <mxPoint x="70" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="QLLydrI87n6_189Huacy-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="440" as="sourcePoint" />
+            <mxPoint x="80" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-21" value="前后两次查询的&lt;br&gt;结果集不一致，&lt;br&gt;发生了幻读" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-1" value="事务 A" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="295.00000000000006" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-2" value="事务 B" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="375.00000000000006" y="200" width="295.00000000000006" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-4" value="begin" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="295.00000000000006" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="375.00000000000006" y="250" width="295.00000000000006" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-7" value="select * from t_stu where id = 5; &lt;br&gt;//没有任何输出" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="295.00000000000006" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-9" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="375.00000000000006" y="300" width="295.00000000000006" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-10" value="begin;&lt;br&gt;insert into t_stu values(5, &#39;小美&#39;, 18);&lt;br&gt;commit;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="375.00000000000006" y="375" width="295.00000000000006" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-12" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="375" width="295.00000000000006" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-13" value="update t_stu set name = &#39;小林coding&#39; where id = 5;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="295.00000000000006" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-15" value="select * from t_stu where id = 5; &lt;br&gt;//输出 id = 5 的记录" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="525" width="295.00000000000006" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-16" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="375.00000000000006" y="450" width="295.00000000000006" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QLLydrI87n6_189Huacy-17" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="375.00000000000006" y="525" width="295.00000000000006" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

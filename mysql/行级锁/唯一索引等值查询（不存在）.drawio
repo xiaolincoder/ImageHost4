@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T10:52:26.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JnoL0h_eSEhfU3fS5Ek2" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T10:52:44.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qmqxsDZqQwFDe5owDcZ2" version="20.5.3" type="github">
   <diagram id="ynUCYJEwDXV2ICBMJQwH" name="第 1 页">
     <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="hnk9L7wkyQKLnpYL89Tx-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="hnk9L7wkyQKLnpYL89Tx-17">
           <mxGeometry x="260" y="128" width="260" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="hnk9L7wkyQKLnpYL89Tx-11" value="insert user (id, name, age) values (3, &#39;小林&#39;, 26);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;container=0;" vertex="1" parent="hnk9L7wkyQKLnpYL89Tx-17">
+        <mxCell id="hnk9L7wkyQKLnpYL89Tx-11" value="insert user (id, name, age) values (3, &#39;小林&#39;, 26);&lt;br&gt;// 阻塞..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;container=0;" vertex="1" parent="hnk9L7wkyQKLnpYL89Tx-17">
           <mxGeometry x="260" y="192" width="260" height="64" as="geometry" />
         </mxCell>
         <mxCell id="hnk9L7wkyQKLnpYL89Tx-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="hnk9L7wkyQKLnpYL89Tx-17">

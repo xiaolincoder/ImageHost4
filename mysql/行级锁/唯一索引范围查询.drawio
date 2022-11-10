@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T13:23:07.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="M5Gt7R7yGao0Id3DnbUE" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T13:23:17.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RqCSnhNpIes7g6ih40Cz" version="20.5.3" type="github">
   <diagram id="uNXggtIW4rXvVpEK32Hz" name="第 1 页">
     <mxGraphModel dx="2253" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-19" value="name 列：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-75" y="290" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-20" value="第一种锁：&lt;br&gt;X 型next-key锁：&lt;br&gt;(-∞, 5]" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;size=20;position=0.14;position2=0.26;base=20;" vertex="1" parent="1">
+        <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-20" value="第一种锁：&lt;br&gt;X 型next-key锁：&lt;br&gt;(-∞, 5]" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;size=20;position=0.43;position2=0.26;base=60;" vertex="1" parent="1">
           <mxGeometry x="240" y="125" width="140" height="115" as="geometry" />
         </mxCell>
         <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-24" value="第二种锁：&lt;br&gt;X 型间隙锁：&lt;br&gt;(5, 10)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;size=0;position=0.2;base=50;" vertex="1" parent="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T13:23:17.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RqCSnhNpIes7g6ih40Cz" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T13:51:06.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vkyLWigpDwtjfDNZ23dQ" version="20.5.3" type="github">
   <diagram id="uNXggtIW4rXvVpEK32Hz" name="第 1 页">
     <mxGraphModel dx="2253" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,29 +61,14 @@
         <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-19" value="name 列：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-75" y="290" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-20" value="第一种锁：&lt;br&gt;X 型next-key锁：&lt;br&gt;(-∞, 5]" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;size=20;position=0.43;position2=0.26;base=60;" vertex="1" parent="1">
+        <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-20" value="X 型next-key锁：&lt;br&gt;(-∞, 5]" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;size=20;position=0.43;position2=0.26;base=60;" vertex="1" parent="1">
           <mxGeometry x="240" y="125" width="140" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-24" value="第二种锁：&lt;br&gt;X 型间隙锁：&lt;br&gt;(5, 10)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;size=0;position=0.2;base=50;" vertex="1" parent="1">
-          <mxGeometry x="230" y="410" width="100" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-25" value="&lt;span style=&quot;caret-color: rgb(184, 191, 198); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; text-align: left; text-size-adjust: auto;&quot;&gt;infimum&lt;br&gt;record&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;horizontal=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-26" value="特殊记录，&lt;br style=&quot;font-size: 15px;&quot;&gt;标识最小记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="25" y="360" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-31" value="" style="endArrow=none;html=1;rounded=0;fontSize=15;entryX=0;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" target="nwZtk9ZThx2Bu3_Ccv7r-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="400" as="sourcePoint" />
-            <mxPoint x="260" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nwZtk9ZThx2Bu3_Ccv7r-32" value="" style="endArrow=none;html=1;rounded=0;fontSize=15;entryX=0;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" target="nwZtk9ZThx2Bu3_Ccv7r-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="400" as="sourcePoint" />
-            <mxPoint x="320" y="410" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

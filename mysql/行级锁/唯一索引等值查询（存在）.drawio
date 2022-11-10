@@ -1,56 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T10:10:12.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ER6LXeOakMKKRnuDmmIg" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T10:10:20.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SFWa50EXc5e_vFURcgcc" version="20.5.3" type="github">
   <diagram id="-ahSEL1mLYKGtO_scvp7" name="第 1 页">
     <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="S-Wbejco6bGEYWiMusM8-16" value="" style="group;fontSize=16;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="120" y="160" width="480" height="280" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="160" width="480" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-1" value="事务 A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-1" value="事务 A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-2" value="事务 B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry x="160" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-2" value="事务 B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry x="160" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-3" value="事务 C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry x="320" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-3" value="事务 C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry x="320" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-4" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;begin;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry y="56" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-4" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;begin;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry y="64" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-5" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;select * from user where id = 1 for update;&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry y="112" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-5" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;select * from user where id = 1 for update;&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry y="128" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry x="160" y="56" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry x="160" y="64" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry x="320" y="56" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry x="320" y="64" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry x="160" y="112" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry x="160" y="128" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry x="320" y="112" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry x="320" y="128" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-10" value="update user set&amp;nbsp; age = 20 where id =1;&lt;br style=&quot;font-size: 16px;&quot;&gt;// 阻塞..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry x="160" y="168" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-10" value="update user set&amp;nbsp; age = 20 where id =1;&lt;br style=&quot;font-size: 16px;&quot;&gt;// 阻塞..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry x="160" y="192" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry x="320" y="168" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry x="320" y="192" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-12" value="delete from user&amp;nbsp; where id =1;&lt;br style=&quot;font-size: 16px;&quot;&gt;// 阻塞..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry x="320" y="224" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-12" value="delete from user&amp;nbsp; where id =1;&lt;br style=&quot;font-size: 16px;&quot;&gt;// 阻塞..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry x="320" y="256" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry y="168" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry y="192" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry x="160" y="224" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry x="160" y="256" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="S-Wbejco6bGEYWiMusM8-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-16">
-          <mxGeometry y="224" width="160" height="56" as="geometry" />
+        <mxCell id="S-Wbejco6bGEYWiMusM8-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;container=0;" vertex="1" parent="S-Wbejco6bGEYWiMusM8-17">
+          <mxGeometry y="256" width="160" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

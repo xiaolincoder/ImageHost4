@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T15:32:00.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="TQvzVIRpL-omNpnbBfPq" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T15:33:21.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="h6SnGGN6b-lrQGEOx2s3" version="20.5.3" type="github">
   <diagram id="yrgHNCWNBL6AVxs2_Q6k" name="第 1 页">
     <mxGraphModel dx="2253" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="yM1x_XU4JPMcfu7O4FvX-33" value="5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="280" y="360" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yM1x_XU4JPMcfu7O4FvX-34" value="10" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="yM1x_XU4JPMcfu7O4FvX-34" value="10" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="360" y="360" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yM1x_XU4JPMcfu7O4FvX-35" value="15" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -44,7 +44,7 @@
           <mxGeometry x="440" y="360" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yM1x_XU4JPMcfu7O4FvX-37" value="提示：对二级索引进行加锁分析时，要先对age索引进行排序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="95" y="460" width="450" height="30" as="geometry" />
+          <mxGeometry x="90" y="555" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yM1x_XU4JPMcfu7O4FvX-64" value="路飞" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="120" y="400" width="80" height="40" as="geometry" />
@@ -58,7 +58,7 @@
         <mxCell id="yM1x_XU4JPMcfu7O4FvX-67" value="索隆" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="280" y="400" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yM1x_XU4JPMcfu7O4FvX-68" value="山治" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="yM1x_XU4JPMcfu7O4FvX-68" value="山治" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="360" y="400" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yM1x_XU4JPMcfu7O4FvX-69" value="name 列：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=16;" vertex="1" parent="1">
@@ -92,6 +92,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="325" as="sourcePoint" />
             <mxPoint x="400" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yM1x_XU4JPMcfu7O4FvX-76" value="&lt;br&gt;主键索引锁：X 型记录锁：&lt;br&gt;id = 10" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;size=0;position=0.67;position2=0.8;base=20;" vertex="1" parent="1">
+          <mxGeometry x="270" y="480" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yM1x_XU4JPMcfu7O4FvX-77" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="yM1x_XU4JPMcfu7O4FvX-76" target="yM1x_XU4JPMcfu7O4FvX-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="500" as="sourcePoint" />
+            <mxPoint x="410" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

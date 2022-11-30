@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T05:17:48.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="NKv4EI_wGBYZy_fVVGab" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T05:18:58.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="3e6Zzvw5MDKPXvICIxD2" type="github">
   <diagram id="FDNCHmbq4g4QRqkRjW3C" name="第 1 页">
     <mxGraphModel dx="1096" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,12 @@
         </mxCell>
         <mxCell id="Jjxi664DVSr25sezRC5C-12" value="列的顺序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="95.92592592592592" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjxi664DVSr25sezRC5C-19" value="逆向存放" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="175" y="225" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jjxi664DVSr25sezRC5C-20" value="NULL 值列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="82.6" y="355" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

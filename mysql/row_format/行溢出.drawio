@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T06:10:16.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="1gAVPo8Jl8vEkNTdm-Nj" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T06:10:55.501Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="L4O3--3Bqo5uu88R4K0D" type="github">
   <diagram id="3eHL6gBv47sc7yMh3iQE" name="第 1 页">
-    <mxGraphModel dx="1096" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1566" dy="951" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,6 +24,24 @@
         </mxCell>
         <mxCell id="dTetyQT3u0sxiPz0bWXz-7" value="行格式：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="55" y="255" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTetyQT3u0sxiPz0bWXz-10" value="...." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="254" y="498" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTetyQT3u0sxiPz0bWXz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="dTetyQT3u0sxiPz0bWXz-13" target="dTetyQT3u0sxiPz0bWXz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dTetyQT3u0sxiPz0bWXz-13" value="溢出页的地址" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="374" y="498" width="147" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTetyQT3u0sxiPz0bWXz-14" value="存放记录剩余数据的溢出页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="511" y="628" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTetyQT3u0sxiPz0bWXz-15" value="...." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="521" y="498" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTetyQT3u0sxiPz0bWXz-16" value="行格式：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="150" y="513" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

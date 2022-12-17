@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-12-17T06:27:52.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="0yy2bNTFtRjf-hPWZaW0" type="github"><diagram id="0VKbHSaDv_8-1RVnUFmS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-17T06:38:29.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="Sab31v0-rXGvYM7kAM96" type="github">
+  <diagram id="_n9XriPJKWZe-0-dvSkY" name="第 1 页">
+    <mxGraphModel dx="1060" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7iMVUGD9724Wubqn3YYU-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="160" width="600" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-1" value="事务 A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-2" value="事务 B" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="150" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-3" value="事务 C" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="300" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-4" value="事务 D" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="450" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-5" value="begin;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-6" value="select * from t_user where age &amp;gt; 30 for update;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry y="100" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="150" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="300" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="450" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-10" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-size: 16px;&quot;&gt;update t_user set name = &quot;jack&quot; where id = 1;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-size: 16px;&quot;&gt;//&amp;nbsp; 阻塞&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="150" y="175" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-11" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-size: 16px;&quot;&gt;delete  from t_user where id = 2;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-size: 16px;&quot;&gt;//&amp;nbsp; 阻塞&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="300" y="250" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-12" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-size: 16px;&quot;&gt;insert into t_user values (10, &#39;xiaolin&#39;, 18, 100000); &lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-size: 16px;&quot;&gt;//&amp;nbsp; 阻塞&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="450" y="325" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="150" y="100" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="300" y="100" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="300" y="175" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry y="175" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry y="250" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="150" y="250" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="450" y="100" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="450" y="175" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="450" y="250" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="300" y="325" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry y="325" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7iMVUGD9724Wubqn3YYU-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="7iMVUGD9724Wubqn3YYU-25">
+          <mxGeometry x="150" y="325" width="150" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
